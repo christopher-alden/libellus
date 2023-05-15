@@ -18,7 +18,6 @@ export default function HomeSlider({ courses }) {
   return (
     <Fragment>
       <div className="flex justify-center items-center w-screen h-[800px] opacity-100 ">
-        
         <div className="absolute w-[1200px] h-[600px] z-10 cover shadow-2xl">
         <div className='absolute z-20 text-5xl text-d-text font-bold bottom-20 left-20'>{currentItem.title}</div>
         <div className='absolute w-full h-full rounded-xl bg-gradient-to-t from-d-primary z-11'></div>  
