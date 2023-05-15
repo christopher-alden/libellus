@@ -31,11 +31,11 @@ export default function Navbar(){
                 LIBELLUS
             </div>
             <div className="flex my-auto text-d-text text-lg gap-4 poppins justify-center">
-                <div>Home</div>
-                <div>Courses</div>
-                <div>Videos</div>
-                <div>Practice</div>
-                <div>Videos</div>
+                <button className="hover:text-d-light transition-all duration-100">Home</button>
+                <button className="hover:text-d-light transition-all duration-100">Courses</button>
+                <button className="hover:text-d-light transition-all duration-100">Videos</button>
+                <button className="hover:text-d-light transition-all duration-100">Practice</button>
+                <button className="hover:text-d-light transition-all duration-100">Videos</button>
             </div>
             <div className="my-auto text-center text-d-accent text-4xl font-bold">
                 <ProfileIcon/>
