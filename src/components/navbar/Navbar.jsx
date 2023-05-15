@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const [isNavbarTransparent, setIsNavbarTransparent] = useState(true);
+  const [activeMenu, setActiveMenu] = useState("home");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -39,20 +40,35 @@ export default function Navbar() {
         LIBELLUS
       </div>
       <div className="flex my-auto text-d-text text-lg gap-4 poppins justify-center">
-        <button className="hover:text-d-light transition-all duration-100">
+        <button
+          className={activeMenu === "home" ? "text-d-accent transition-all duration-150" : ""}
+          onClick={() => setActiveMenu("home")}
+        >
           Home
         </button>
-        <button className="hover:text-d-light transition-all duration-100">
+        <button
+          className={activeMenu === "courses" ? "text-d-accent transition-all duration-150" : ""}
+          onClick={() => setActiveMenu("courses")}
+        >
           Courses
         </button>
-        <button className="hover:text-d-light transition-all duration-100">
+        <button
+          className={activeMenu === "videos" ? "text-d-accent transition-all duration-150" : ""}
+          onClick={() => setActiveMenu("videos")}
+        >
           Videos
         </button>
-        <button className="hover:text-d-light transition-all duration-100">
+        <button
+          className={activeMenu === "practice" ? "text-d-accent transition-all duration-150" : ""}
+          onClick={() => setActiveMenu("practice")}
+        >
           Practice
         </button>
-        <button className="hover:text-d-light transition-all duration-100">
-          Videos
+        <button
+          className={activeMenu === "more" ? "text-d-accent transition-all duration-150" : ""}
+          onClick={() => setActiveMenu("more")}
+        >
+          More
         </button>
       </div>
       <div className="my-auto text-center text-d-accent text-4xl font-bold">

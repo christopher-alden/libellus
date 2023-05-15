@@ -4,7 +4,7 @@ export default function HomeSliderCards({ bannerImage }) {
       <img
         src={bannerImage}
         alt="banner"
-        className="w-full h-full object-cover object-center z-10 opacity-70"
+        className="w-full h-full object-cover object-center z-10 opacity-50"
       />
     </div>
   );

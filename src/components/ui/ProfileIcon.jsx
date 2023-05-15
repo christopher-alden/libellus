@@ -1,4 +1,4 @@
-import placeholder from "../../lib/assets/ahyeon.jpeg";
+import placeholder from "../../lib/assets/pp.webp";
 export default function ProfileIcon() {
   return (
     <div className="inline-block rounded-full overflow-hidden bg-gray-200 h-12 w-12">

@@ -38,7 +38,10 @@ export default function HomeSlider({ courses }) {
               </div>
               <div className=" flex flex-wrap ">
                 {currentItem.tags.map((tag) => (
-                  <div key={tag} className="mr-2 mb-2 px-2 py-1 text-d-text border-d-text border-2 rounded-lg text-sm">
+                  <div
+                    key={tag}
+                    className="mr-2 mb-2 px-2 py-1 text-d-text border-d-text border-2 rounded-lg text-sm"
+                  >
                     {tag}
                   </div>
                 ))}

@@ -1,145 +1,157 @@
+
 {
   "python": [
     {
       "id": "PY001",
       "title": "Python Basics",
       "description": "Learn the fundamentals of Python programming, including data types, control flow, functions, and more.",
-      "tags": ["Beginner", "Fundamentals", "Syntax"]
+      "tags": ["Fundamentals", "Syntax"],
+      "difficulty": "Beginner",
+      "lessons": 10
     },
     {
       "id": "PY002",
       "title": "Object-Oriented Programming in Python",
       "description": "Learn how to use Python's object-oriented features to create reusable and maintainable code.",
-      "tags": ["Intermediate", "OOP", "Design Patterns"]
+      "tags": ["OOP", "Design Patterns"],
+      "difficulty": "Intermediate",
+      "lessons": 8
     },
     {
       "id": "PY003",
       "title": "Python for Data Science",
       "description": "Learn how to use Python for data analysis, visualization, and machine learning.",
-      "tags": [
-        "Intermediate",
-        "Data Science",
-        "Machine Learning",
-        "Visualization"
-      ]
+      "tags": ["Data Science", "Machine Learning", "Visualization"],
+      "difficulty": "Intermediate",
+      "lessons": 12
     },
     {
       "id": "PY004",
       "title": "Python for Web Development",
       "description": "Build web applications using Python and popular web frameworks like Flask and Django.",
-      "tags": ["Intermediate", "Web Development", "Flask", "Django"]
+      "tags": ["Web Development", "Flask", "Django"],
+      "difficulty": "Intermediate",
+      "lessons": 10
     },
     {
       "id": "PY005",
       "title": "Python for Automation",
       "description": "Automate repetitive tasks and streamline your workflows using Python.",
-      "tags": ["Intermediate", "Automation", "Scripting"]
+      "tags": ["Automation", "Scripting"],
+      "difficulty": "Intermediate",
+      "lessons": 8
     },
     {
       "id": "PY006",
       "title": "Python for Network Engineers",
       "description": "Learn how to use Python to automate network tasks and manage network devices.",
-      "tags": ["Intermediate", "Networking", "Automation"]
+      "tags": ["Networking", "Automation"],
+      "difficulty": "Intermediate",
+      "lessons": 10
     },
     {
       "id": "PY007",
       "title": "Python for Finance",
       "description": "Learn how to use Python for financial analysis and modeling.",
-      "tags": ["Intermediate", "Finance", "Data Analysis"]
+      "tags": ["Finance", "Data Analysis"],
+      "difficulty": "Intermediate",
+      "lessons": 8
     },
     {
       "id": "PY008",
       "title": "Data Structures and Algorithms in Python",
       "description": "Learn how to implement common data structures and algorithms in Python.",
-      "tags": ["Intermediate", "Algorithms", "Data Structures"]
-    },
-    {
-      "id": "PY008",
-      "title": "Python GUI Programming",
-      "description": "Build graphical user interfaces (GUIs) using Python and libraries like Tkinter and PyQt.",
-      "tags": ["Intermediate", "GUI Programming", "Tkinter", "PyQt"]
+      "tags": ["Algorithms", "Data Structures"],
+      "difficulty": "Intermediate",
+      "lessons": 12
     },
     {
       "id": "PY009",
-      "title": "Python Web Scraping",
-      "description": "Learn how to extract data from websites using Python and libraries like BeautifulSoup and Scrapy.",
-      "tags": ["Intermediate", "Web Scraping", "Data Extraction"]
+      "title": "Python GUI Programming",
+      "description": "Build graphical user interfaces (GUIs) using Python and libraries like Tkinter and PyQt.",
+      "tags": ["GUI Programming", "Tkinter", "PyQt"],
+      "difficulty": "Intermediate",
+      "lessons": 10
     },
     {
-      "id": "PY010",
-      "title": "Advanced Python Topics",
-      "description": "Explore advanced topics in Python programming, including metaclasses, decorators, and concurrency.",
-      "tags": ["Advanced", "Metaclasses", "Decorators", "Concurrency"]
+      "id": "PY0010",
+      "title": "Python Web Scraping",
+      "description": "Learn how to extract data from websites using Python and libraries like BeautifulSoup and Scrapy.",
+      "tags": ["Web Scraping", "Data Extraction"],
+      "difficulty": "Intermediate",
+      "lessons": 8
     },
     {
       "id": "PY011",
-      "title": "Python Testing and Debugging",
-      "description": "Learn how to write effective tests and debug Python code using tools like pytest and pdb.",
-      "tags": ["Intermediate", "Testing", "Debugging", "Pytest", "Pdb"]
+      "title": "Advanced Python Topics",
+      "description": "Explore advanced topics in Python programming, including metaclasses, decorators, and concurrency.",
+      "tags": ["Metaclasses", "Decorators", "Concurrency"],
+      "difficulty": "Advanced",
+      "lessons": 10
     },
     {
       "id": "PY012",
-      "title": "Python for Natural Language Processing",
-      "description": "Learn how to use Python for natural language processing tasks like text classification and sentiment analysis.",
-      "tags": [
-        "Intermediate",
-        "NLP",
-        "Text Classification",
-        "Sentiment Analysis"
-      ]
+      "title": "Python Testing and Debugging",
+      "description": "Learn how to write effective tests and debug Python code using tools like pytest and pdb.",
+      "tags": ["Testing", "Debugging", "Pytest", "Pdb"],
+      "difficulty": "Intermediate",
+      "lessons": 10
     },
     {
       "id": "PY013",
-      "title": "Python for Machine Learning",
-      "description": "Explore advanced machine learning techniques in Python, including deep learning and reinforcement learning.",
-      "tags": [
-        "Advanced",
-        "Machine Learning",
-        "Deep Learning",
-        "Reinforcement Learning"
-      ]
+      "title": "Python for Natural Language Processing",
+      "description": "Learn how to use Python for natural language processing tasks like text classification and sentiment analysis.",
+      "tags": ["NLP", "Text Classification", "Sentiment Analysis"],
+      "difficulty": "Intermediate",
+      "lessons": 12
     },
     {
       "id": "PY014",
-      "title": "Python for Deep Learning",
-      "description": "Learn how to use Python and popular deep learning frameworks like TensorFlow and PyTorch to build neural networks.",
-      "tags": [
-        "Advanced",
-        "Deep Learning",
-        "Neural networks",
-        "TensorFlow",
-        "PyTorch"
-      ]
+      "title": "Python for Machine Learning",
+      "description": "Explore advanced machine learning techniques in Python, including deep learning and reinforcement learning.",
+      "tags": ["Machine Learning", "Deep Learning", "Reinforcement Learning"],
+      "difficulty": "Advanced",
+      "lessons": 15
     },
     {
       "id": "PY015",
-      "title": "Python for Computer Vision",
-      "description": "Learn how to use Python and libraries like OpenCV to analyze and manipulate images and videos.",
-      "tags": ["Advanced", "Computer Vision", "Image Processing", "OpenCV"]
+      "title": "Python for Deep Learning",
+      "description": "Learn how to use Python and popular deep learning frameworks like TensorFlow and PyTorch to build neural networks.",
+      "tags": ["Deep Learning", "Neural networks", "TensorFlow", "PyTorch"],
+      "difficulty": "Advanced",
+      "lessons": 18
     },
     {
       "id": "PY016",
-      "title": "Python for Natural Language Generation",
-      "description": "Learn how to use Python to generate human-like text using techniques like GPT-3 and LSTM.",
-      "tags": ["Advanced", "NLP", "Text Generation", "GPT-3", "LSTM"]
+      "title": "Python for Computer Vision",
+      "description": "Learn how to use Python and libraries like OpenCV to analyze and manipulate images and videos.",
+      "tags": ["Computer Vision", "Image Processing", "OpenCV"],
+      "difficulty": "Advanced",
+      "lessons": 14
     },
     {
       "id": "PY017",
-      "title": "Python for Big Data",
-      "description": "Learn how to use Python to process and analyze large datasets using tools like Apache Spark and Dask.",
-      "tags": [
-        "Advanced",
-        "Big Data",
-        "Data Processing",
-        "Apache Spark",
-        "Dask"
-      ]
+      "title": "Python for Natural Language Generation",
+      "description": "Learn how to use Python to generate human-like text using techniques like GPT-3 and LSTM.",
+      "tags": ["NLP", "Text Generation", "GPT-3", "LSTM"],
+      "difficulty": "Advanced",
+      "lessons": 20
     },
     {
       "id": "PY018",
+      "title": "Python for Big Data",
+      "description": "Learn how to use Python to process and analyze large datasets using tools like Apache Spark and Dask.",
+      "tags": ["Big Data", "Data Processing", "Apache Spark", "Dask"],
+      "difficulty": "Advanced",
+      "lessons": 16
+    },
+    {
+      "id": "PY019",
       "title": "Python for DevOps",
       "description": "Learn how to use Python to automate and manage infrastructure, build pipelines, and deploy applications.",
-      "tags": ["Advanced", "DevOps", "Automation", "Deployment"]
+      "tags": ["DevOps", "Automation", "Deployment"],
+      "difficulty": "Advanced",
+      "lessons": 13
     }
   ],
   "c": [
@@ -147,91 +159,124 @@
       "id": "C001",
       "title": "C Programming Basics",
       "description": "Learn the basics of C programming, including data types, variables, operators, control structures, and functions.",
-      "tags": ["Beginner", "Fundamentals", "Syntax"]
+      "tags": ["Fundamentals", "Syntax"],
+      "difficulty": "Beginner",
+      "lessons": "10"
     },
     {
       "id": "C002",
       "title": "Arrays and Strings in C",
       "description": "Understand how to use arrays and strings in C programming, including array declaration, initialization, accessing array elements, and string manipulation.",
-      "tags": ["Beginner", "Arrays", "Strings"]
+      "tags": ["Arrays", "Strings"],
+      "difficulty": "Beginner",
+      "lessons": "8"
     },
     {
       "id": "C003",
       "title": "Pointers in C",
       "description": "Learn about the concept of pointers in C programming and how to use them to manipulate data directly in memory.",
-      "tags": ["Intermediate", "Pointers", "Memory"]
+      "tags": [ "Pointers", "Memory"],
+      "difficulty": "Intermediate",
+      "lessons": "6"
     },
     {
       "id": "C004",
       "title": "Dynamic Memory Allocation in C",
       "description": "Understand how to allocate and deallocate memory dynamically in C programming using functions such as malloc, calloc, and realloc.",
-      "tags": ["Intermediate", "Memory Allocation", "Pointers"]
+      "tags": [ "Memory Allocation", "Pointers"],
+      "difficulty": "Intermediate",
+      "lessons": "7"
     },
     {
       "id": "C005",
       "title": "Structures and Unions in C",
       "description": "Learn how to use structures and unions in C programming, including declaration, initialization, accessing structure elements, and typecasting.",
-      "tags": ["Intermediate", "Structures", "Unions"]
+      "tags": ["Structures", "Unions"],
+      "difficulty": "Intermediate",
+      "lessons": "8"
     },
     {
       "id": "C006",
       "title": "File Input/Output in C",
       "description": "Understand how to perform file input/output operations in C programming, including opening, closing, reading, and writing files.",
-      "tags": ["Intermediate", "File I/O", "Streams"]
+      "tags": ["File I/O", "Streams"],
+      "difficulty": "Intermediate",
+      "lessons": "6"
     },
     {
       "id": "C007",
       "title": "Recursion in C",
       "description": "Learn how to implement recursive functions in C programming, including base case, recursive case, and stack overflow.",
-      "tags": ["Intermediate", "Recursion", "Functions"]
+      "tags": ["Recursion", "Functions"],
+      "difficulty": "Intermediate",
+      "lessons": "5"
     },
     {
       "id": "C008",
       "title": "Advanced Data Structures in C",
       "description": "Learn about advanced data structures such as trees, graphs, and hash tables, and how to implement them in C programming.",
-      "tags": ["Advanced", "Data Structures", "Algorithms"]
+      "tags": ["Data Structures", "Algorithms"],
+      "difficulty": "Advanced",
+      "lessons": "10"
     },
     {
       "id": "C009",
       "title": "Concurrency in C",
       "description": "Understand how to write concurrent programs in C using threads, synchronization, and mutual exclusion techniques.",
-      "tags": ["Advanced", "Concurrency", "Multithreading"]
+      "tags": ["Concurrency", "Multithreading"],
+      "difficulty": "Advanced",
+      "lessons": "9"
     },
     {
       "id": "C010",
       "title": "Socket Programming in C",
       "description": "Learn how to create network applications using socket programming in C, including socket creation, binding, and connecting.",
-      "tags": ["Advanced", "Networking", "Sockets"]
+      "tags": ["Networking", "Sockets"],
+      "difficulty": "Advanced",
+      "lessons": "8"
     },
     {
       "id": "C011",
       "title": "OpenGL Programming in C",
       "description": "Understand how to create 2D and 3D graphics using OpenGL programming in C, including basic OpenGL functions, rendering, and shading.",
-      "tags": ["Advanced", "Graphics", "OpenGL"]
+      "tags": ["Graphics", "OpenGL"],
+      "difficulty": "Advanced",
+      "lessons": "12"
     },
     {
       "id": "C012",
       "title": "Compiler Design in C",
       "description": "Learn how to design andimplement a compiler in C programming, including lexical analysis, parsing, semantic analysis, code generation, and optimization.",
-      "tags": ["Advanced", "Compiler Design", "Programming Languages"]
+      "tags": ["Compiler Design", "Programming Languages"],
+      "difficulty": "Advanced",
+      "lessons": "7"
     },
     {
       "id": "C013",
       "title": "Embedded Systems Programming in C",
       "description": "Understand how to program embedded systems using C programming, including hardware interfaces, interrupts, and timers.",
-      "tags": ["Advanced", "Embedded Systems", "Hardware"]
+      "tags": ["Embedded Systems", "Hardware"],
+      "difficulty": "Advanced",
+      "lessons": "12"
     },
     {
       "id": "C014",
       "title": "Secure Coding in C",
       "description": "Learn about secure coding practices in C programming, including input validation, buffer overflows, and memory safety.",
-      "tags": ["Advanced", "Security", "Coding Practices"]
+      "tags": ["Security", "Coding Practices"],
+      "difficulty": "Advanced",
+      "lessons": "8"
     },
     {
       "id": "C015",
       "title": "Parallel Programming in C",
       "description": "Understand how to write parallel programs in C using OpenMP, MPI, and CUDA.",
-      "tags": ["Advanced", "Parallel Programming", "High Performance Computing"]
+      "tags": [
+        "Parallel Programming",
+        "High Performance Computing"
+      ],
+      "difficulty": "Advanced",
+      "lessons": "11"
     }
   ]
 }
