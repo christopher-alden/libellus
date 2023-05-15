@@ -1,11 +1,11 @@
 import HomeSlider from "../components/sliders/HomeSlider";
-import data from '../lib/data/SliderCourses.json';
-export default function Home(){
-    const courses = data.courses;
-    return(
-        <div className="bg-gradient-to-b from-d-secondary">
-            <HomeSlider courses={courses}></HomeSlider>
-        </div>
-        
-    );
+import CustomCard from "../components/ui/CustomCard";
+import data from "../lib/data/SliderCourses.json";
+export default function Home() {
+  const sliders = data.sliders;
+  return (
+    <div className="bg-gradient-to-b from-d-secondary">
+      <HomeSlider courses={sliders}></HomeSlider>
+    </div>
+  );
 }
