@@ -1679,7 +1679,6 @@
         }
       ]
     },
-
     {
       "id": "C015",
       "title": "Data Structures and Algorithms in C",
@@ -1781,6 +1780,1372 @@
         {
           "lessonID": "C01511",
           "title": "CUDA Performance"
+        }
+      ]
+    }
+  ],
+  "java": [
+    {
+      "id": "JAVA001",
+      "title": "Java Programming for Beginners",
+      "description": "Learn Java programming fundamentals, including data types, control structures, and object-oriented programming concepts.",
+      "tags": ["Fundamentals", "Object-Oriented Programming", "Syntax"],
+      "difficulty": "Beginner",
+      "lessons": 10,
+      "topics": [
+        {
+          "lessonID": "JAVA00101",
+          "title": "Introduction to Java Programming"
+        },
+        {
+          "lessonID": "JAVA00102",
+          "title": "Data Types and Variables"
+        },
+        {
+          "lessonID": "JAVA00103",
+          "title": "Operators and Expressions"
+        },
+        {
+          "lessonID": "JAVA00104",
+          "title": "Control Structures"
+        },
+        {
+          "lessonID": "JAVA00105",
+          "title": "Arrays"
+        },
+        {
+          "lessonID": "JAVA00106",
+          "title": "Object-Oriented Programming Concepts"
+        },
+        {
+          "lessonID": "JAVA00107",
+          "title": "Classes and Objects"
+        },
+        {
+          "lessonID": "JAVA00108",
+          "title": "Inheritance and Polymorphism"
+        },
+        {
+          "lessonID": "JAVA00109",
+          "title": "Exceptions and Error Handling"
+        },
+        {
+          "lessonID": "JAVA00110",
+          "title": "File Handling and I/O"
+        }
+      ]
+    },
+    {
+      "id": "JAVA002",
+      "title": "Java Intermediate Programming",
+      "description": "Learn intermediate Java programming concepts, including inheritance, polymorphism, and exception handling.",
+      "tags": ["Inheritance", "Polymorphism", "Exception Handling"],
+      "difficulty": "Intermediate",
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "JAVA00201",
+          "title": "Inheritance and Polymorphism"
+        },
+        {
+          "lessonID": "JAVA00202",
+          "title": "Abstract Classes and Interfaces"
+        },
+        {
+          "lessonID": "JAVA00203",
+          "title": "Exception Handling"
+        },
+        {
+          "lessonID": "JAVA00204",
+          "title": "Collections Framework"
+        },
+        {
+          "lessonID": "JAVA00205",
+          "title": "Generics and Type Erasure"
+        },
+        {
+          "lessonID": "JAVA00206",
+          "title": "Input and Output Streams"
+        },
+        {
+          "lessonID": "JAVA00207",
+          "title": "Multithreading and Concurrency"
+        },
+        {
+          "lessonID": "JAVA00208",
+          "title": "Lambda Expressions"
+        },
+        {
+          "lessonID": "JAVA00209",
+          "title": "Module System"
+        },
+        {
+          "lessonID": "JAVA00210",
+          "title": "Networking with Sockets"
+        },
+        {
+          "lessonID": "JAVA00211",
+          "title": "Annotations"
+        },
+        {
+          "lessonID": "JAVA00212",
+          "title": "Project: Build a Java Application"
+        }
+      ]
+    },
+    {
+      "id": "JAVA003",
+      "title": "Advanced Java Programming",
+      "description": "Learn advanced Java programming concepts, including multithreading, networking, and GUI programming.",
+      "tags": ["Multithreading", "Networking", "GUI Programming"],
+      "difficulty": "Advanced",
+      "lessons": 15,
+      "topics": [
+        {
+          "lessonID": "JAVA00301",
+          "title": "Introduction to Multithreading"
+        },
+        {
+          "lessonID": "JAVA00302",
+          "title": "Synchronization and Locks"
+        },
+        {
+          "lessonID": "JAVA00303",
+          "title": "Java Concurrency Utilities"
+        },
+        {
+          "lessonID": "JAVA00304",
+          "title": "Networking Basics"
+        },
+        {
+          "lessonID": "JAVA00305",
+          "title": "Socket Programming"
+        },
+        {
+          "lessonID": "JAVA00306",
+          "title": "RMI and CORBA"
+        },
+        {
+          "lessonID": "JAVA00307",
+          "title": "Introduction to JavaFX"
+        },
+        {
+          "lessonID": "JAVA00308",
+          "title": "FXML and Scene Builder"
+        },
+        {
+          "lessonID": "JAVA00309",
+          "title": "Advanced Controls and Layouts"
+        },
+        {
+          "lessonID": "JAVA00310",
+          "title": "Event Handling and Animation"
+        },
+        {
+          "lessonID": "JAVA00311",
+          "title": "Introduction to Java 2D and 3D Graphics"
+        },
+        {
+          "lessonID": "JAVA00312",
+          "title": "Java Sound and Java Media Framework"
+        },
+        {
+          "lessonID": "JAVA00313",
+          "title": "Java Web Start and Java Web Services"
+        },
+        {
+          "lessonID": "JAVA00314",
+          "title": "JavaBeans and Custom Components"
+        },
+        {
+          "lessonID": "JAVA00315",
+          "title": "Deployment and Best Practices"
+        }
+      ]
+    },
+    {
+      "id": "JAVA004",
+      "title": "Data Structures and Algorithms in Java",
+      "description": "Learn about common data structures and algorithms in Java, including linked lists, trees, sorting algorithms, and searching algorithms.",
+      "tags": [
+        "Data Structures",
+        "Algorithms",
+        "Linked Lists",
+        "Trees",
+        "Sorting Algorithms",
+        "Searching Algorithms"
+      ],
+      "difficulty": "Intermediate",
+      "lessons": 14,
+      "topics": [
+        {
+          "lessonID": "JAVA00401",
+          "title": "Introduction to Data Structures"
+        },
+        {
+          "lessonID": "JAVA00402",
+          "title": "Arrays"
+        },
+        {
+          "lessonID": "JAVA00403",
+          "title": "Linked Lists"
+        },
+        {
+          "lessonID": "JAVA00404",
+          "title": "Stacks and Queues"
+        },
+        {
+          "lessonID": "JAVA00405",
+          "title": "Trees"
+        },
+        {
+          "lessonID": "JAVA00406",
+          "title": "Graphs"
+        },
+        {
+          "lessonID": "JAVA00407",
+          "title": "Sorting Algorithms"
+        },
+        {
+          "lessonID": "JAVA00408",
+          "title": "Searching Algorithms"
+        },
+        {
+          "lessonID": "JAVA00409",
+          "title": "Recursion"
+        },
+        {
+          "lessonID": "JAVA00410",
+          "title": "Dynamic Programming"
+        },
+        {
+          "lessonID": "JAVA00411",
+          "title": "Hash Tables"
+        },
+        {
+          "lessonID": "JAVA00412",
+          "title": "Heaps and Priority Queues"
+        },
+        {
+          "lessonID": "JAVA00413",
+          "title": "Bit Manipulation"
+        },
+        {
+          "lessonID": "JAVA00414",
+          "title": "Advanced Topics"
+        }
+      ]
+    },
+    {
+      "id": "JAVA005",
+      "title": "Java Web Development",
+      "description": "Learn to build web applications using Java technologies, including JSP, Servlets, and Spring.",
+      "tags": ["Web Development", "JSP", "Servlets", "Spring"],
+      "difficulty": "Intermediate",
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "JAVA00501",
+          "title": "Introduction to Web Development with Java"
+        },
+        {
+          "lessonID": "JAVA00502",
+          "title": "Java Server Pages (JSP)"
+        },
+        {
+          "lessonID": "JAVA00503",
+          "title": "Servlets"
+        },
+        {
+          "lessonID": "JAVA00504",
+          "title": "Spring Framework"
+        },
+        {
+          "lessonID": "JAVA00505",
+          "title": "MVC Architecture"
+        },
+        {
+          "lessonID": "JAVA00506",
+          "title": "Security and Authentication in Web Applications"
+        },
+        {
+          "lessonID": "JAVA00507",
+          "title": "Data Persistence and ORM with Hibernate"
+        },
+        {
+          "lessonID": "JAVA00508",
+          "title": "RESTful Web Services"
+        },
+        {
+          "lessonID": "JAVA00509",
+          "title": "Building a Full-Stack Web Application"
+        },
+        {
+          "lessonID": "JAVA00510",
+          "title": "Deployment and Scaling of Web Applications"
+        },
+        {
+          "lessonID": "JAVA00511",
+          "title": "Testing and Debugging in Web Development"
+        },
+        {
+          "lessonID": "JAVA00512",
+          "title": "Advanced Topics in Java Web Development"
+        }
+      ]
+    },
+    {
+      "id": "JAVA006",
+      "title": "Java Enterprise Development",
+      "description": "Learn to build enterprise applications using Java EE technologies, including EJB, JPA, and CDI.",
+      "tags": ["Enterprise Development", "Java EE", "EJB", "JPA", "CDI"],
+      "difficulty": "Advanced",
+      "lessons": 16,
+      "topics": [
+        {
+          "lessonID": "JAVA00601",
+          "title": "Introduction to Java Enterprise Development"
+        },
+        {
+          "lessonID": "JAVA00602",
+          "title": "Java EE Architecture"
+        },
+        {
+          "lessonID": "JAVA00603",
+          "title": "Java Persistence API (JPA)"
+        },
+        {
+          "lessonID": "JAVA00604",
+          "title": "Java Transaction API (JTA)"
+        },
+        {
+          "lessonID": "JAVA00605",
+          "title": "Enterprise JavaBeans (EJB)"
+        },
+        {
+          "lessonID": "JAVA00606",
+          "title": "Contexts and Dependency Injection (CDI)"
+        },
+        {
+          "lessonID": "JAVA00607",
+          "title": "Java Server Pages (JSP)"
+        },
+        {
+          "lessonID": "JAVA00608",
+          "title": "Java Servlets"
+        },
+        {
+          "lessonID": "JAVA00609",
+          "title": "Java Message Service (JMS)"
+        },
+        {
+          "lessonID": "JAVA00610",
+          "title": "Java Naming and Directory Interface (JNDI)"
+        },
+        {
+          "lessonID": "JAVA00611",
+          "title": "Web Services in Java"
+        },
+        {
+          "lessonID": "JAVA00612",
+          "title": "Security in Java EE"
+        },
+        {
+          "lessonID": "JAVA00613",
+          "title": "Java EE Design Patterns"
+        },
+        {
+          "lessonID": "JAVA00614",
+          "title": "Testing in Java EE"
+        },
+        {
+          "lessonID": "JAVA00615",
+          "title": "Performance Tuning in Java EE"
+        },
+        {
+          "lessonID": "JAVA00616",
+          "title": "Deployment and Configuration in Java EE"
+        }
+      ]
+    },
+    {
+      "id": "JAVA007",
+      "title": "Java Mobile App Development",
+      "description": "Learn to build mobile applications using Java technologies, including Android app development and Java ME.",
+      "tags": ["Mobile Development", "Android", "Java ME"],
+      "difficulty": "Intermediate",
+      "lessons": 10,
+      "topics": [
+        {
+          "lessonID": "JAVA00701",
+          "title": "Introduction to Mobile App Development"
+        },
+        {
+          "lessonID": "JAVA00702",
+          "title": "Java for Mobile App Development"
+        },
+        {
+          "lessonID": "JAVA00703",
+          "title": "Android App Development"
+        },
+        {
+          "lessonID": "JAVA00704",
+          "title": "Android User Interface Design"
+        },
+        {
+          "lessonID": "JAVA00705",
+          "title": "Android App Architecture"
+        },
+        {
+          "lessonID": "JAVA00706",
+          "title": "Data Storage for Mobile Apps"
+        },
+        {
+          "lessonID": "JAVA00707",
+          "title": "Java ME"
+        },
+        {
+          "lessonID": "JAVA00708",
+          "title": "Building Apps for Java ME"
+        },
+        {
+          "lessonID": "JAVA00709",
+          "title": "Mobile App Testing and Deployment"
+        },
+        {
+          "lessonID": "JAVA00710",
+          "title": "Final Project"
+        }
+      ]
+    },
+    {
+      "id": "JAVA008",
+      "title": "Java Game Development",
+      "description": "Learn to build games using Java technologies, including game engines, 2D and 3D graphics, and input handling.",
+      "tags": [
+        "Game Development",
+        "Game Engines",
+        "2D Graphics",
+        "3D Graphics",
+        "Input Handling"
+      ],
+      "difficulty": "Intermediate",
+      "lessons": 11,
+      "topics": [
+        {
+          "lessonID": "JAVA00801",
+          "title": "Introduction to Game Development in Java"
+        },
+        {
+          "lessonID": "JAVA00802",
+          "title": "Game Engines and Frameworks in Java"
+        },
+        {
+          "lessonID": "JAVA00803",
+          "title": "2D Graphics in Java"
+        },
+        {
+          "lessonID": "JAVA00804",
+          "title": "3D Graphics in Java"
+        },
+        {
+          "lessonID": "JAVA00805",
+          "title": "Input Handling in Java Games"
+        },
+        {
+          "lessonID": "JAVA00806",
+          "title": "Collision Detection in Java Games"
+        },
+        {
+          "lessonID": "JAVA00807",
+          "title": "Game Loops and State Management in Java Games"
+        },
+        {
+          "lessonID": "JAVA00808",
+          "title": "Sound and Music in Java Games"
+        },
+        {
+          "lessonID": "JAVA00809",
+          "title": "Networking and Multiplayer in Java Games"
+        },
+        {
+          "lessonID": "JAVA00810",
+          "title": "Packaging and Distributing Java Games"
+        },
+        {
+          "lessonID": "JAVA00811",
+          "title": "Final Project: Build a Java Game"
+        }
+      ]
+    },
+    {
+      "id": "JAVA008",
+      "title": "Java Game Development",
+      "description": "Learn to build games using Java technologies, including game engines, 2D and 3D graphics, and input handling.",
+      "tags": [
+        "Game Development",
+        "Game Engines",
+        "2D Graphics",
+        "3D Graphics",
+        "Input Handling"
+      ],
+      "difficulty": "Intermediate",
+      "lessons": 11,
+      "topics": [
+        {
+          "lessonID": "JAVA00801",
+          "title": "Introduction to Game Development in Java"
+        },
+        {
+          "lessonID": "JAVA00802",
+          "title": "Game Engines and Frameworks in Java"
+        },
+        {
+          "lessonID": "JAVA00803",
+          "title": "2D Graphics in Java"
+        },
+        {
+          "lessonID": "JAVA00804",
+          "title": "3D Graphics in Java"
+        },
+        {
+          "lessonID": "JAVA00805",
+          "title": "Input Handling in Java Games"
+        },
+        {
+          "lessonID": "JAVA00806",
+          "title": "Collision Detection in Java Games"
+        },
+        {
+          "lessonID": "JAVA00807",
+          "title": "Game Loops and State Management in Java Games"
+        },
+        {
+          "lessonID": "JAVA00808",
+          "title": "Sound and Music in Java Games"
+        },
+        {
+          "lessonID": "JAVA00809",
+          "title": "Networking and Multiplayer in Java Games"
+        },
+        {
+          "lessonID": "JAVA00810",
+          "title": "Packaging and Distributing Java Games"
+        },
+        {
+          "lessonID": "JAVA00811",
+          "title": "Final Project: Build a Java Game"
+        }
+      ]
+    },
+    {
+      "id": "JAVA010",
+      "title": "Advanced Java Programming",
+      "description": "Take your Java programming skills to the next level with advanced concepts like multithreading, networking, and data structures.",
+      "tags": ["Multithreading", "Networking", "Data Structures"],
+      "difficulty": "Advanced",
+      "lessons": 15,
+      "topics": [
+        {
+          "lessonID": "JAVA01001",
+          "title": "Introduction to Multithreading"
+        },
+        {
+          "lessonID": "JAVA01002",
+          "title": "Synchronization and Deadlocks"
+        },
+        {
+          "lessonID": "JAVA01003",
+          "title": "Thread Pools and Executors"
+        },
+        {
+          "lessonID": "JAVA01004",
+          "title": "Networking Basics"
+        },
+        {
+          "lessonID": "JAVA01005",
+          "title": "TCP/IP and UDP"
+        },
+        {
+          "lessonID": "JAVA01006",
+          "title": "Java NIO and Non-blocking I/O"
+        },
+        {
+          "lessonID": "JAVA01007",
+          "title": "Collections Framework Overview"
+        },
+        {
+          "lessonID": "JAVA01008",
+          "title": "Lists and Sets"
+        },
+        {
+          "lessonID": "JAVA01009",
+          "title": "Maps and Queues"
+        },
+        {
+          "lessonID": "JAVA01010",
+          "title": "Generics and Type Safety"
+        },
+        {
+          "lessonID": "JAVA01011",
+          "title": "Data Structures: Stacks and Queues"
+        },
+        {
+          "lessonID": "JAVA01012",
+          "title": "Data Structures: Trees"
+        },
+        {
+          "lessonID": "JAVA01013",
+          "title": "Data Structures: Graphs"
+        },
+        {
+          "lessonID": "JAVA01014",
+          "title": "Sorting Algorithms"
+        },
+        {
+          "lessonID": "JAVA01015",
+          "title": "Searching Algorithms"
+        }
+      ]
+    },
+    {
+      "id": "JAVA011",
+      "title": "Java Enterprise Development",
+      "description": "Learn how to build large-scale Java applications that are scalable, maintainable, and secure using popular enterprise technologies like Spring and Hibernate.",
+      "tags": ["Spring Framework", "Hibernate", "Enterprise Development"],
+      "difficulty": "Advanced",
+      "lessons": 20,
+      "topics": [
+        {
+          "lessonID": "JAVA01101",
+          "title": "Introduction to Enterprise Development"
+        },
+        {
+          "lessonID": "JAVA01102",
+          "title": "Spring Framework Basics"
+        },
+        {
+          "lessonID": "JAVA01103",
+          "title": "Spring Framework Advanced Concepts"
+        },
+        {
+          "lessonID": "JAVA01104",
+          "title": "Hibernate Basics"
+        },
+        {
+          "lessonID": "JAVA01105",
+          "title": "Hibernate Advanced Concepts"
+        },
+        {
+          "lessonID": "JAVA01106",
+          "title": "Building Scalable Java Applications"
+        },
+        {
+          "lessonID": "JAVA01107",
+          "title": "Designing Maintainable Java Applications"
+        },
+        {
+          "lessonID": "JAVA01108",
+          "title": "Securing Java Applications"
+        },
+        {
+          "lessonID": "JAVA01109",
+          "title": "Introduction to Microservices Architecture"
+        },
+        {
+          "lessonID": "JAVA01110",
+          "title": "Building Microservices with Spring Boot"
+        },
+        {
+          "lessonID": "JAVA01111",
+          "title": "Microservices Communication with REST APIs"
+        },
+        {
+          "lessonID": "JAVA01112",
+          "title": "Managing Data in Microservices"
+        },
+        {
+          "lessonID": "JAVA01113",
+          "title": "Introduction to Cloud Computing"
+        },
+        {
+          "lessonID": "JAVA01114",
+          "title": "Deploying Java Applications to the Cloud"
+        },
+        {
+          "lessonID": "JAVA01115",
+          "title": "Scaling Java Applications in the Cloud"
+        },
+        {
+          "lessonID": "JAVA01116",
+          "title": "Managing Java Applications in the Cloud"
+        },
+        {
+          "lessonID": "JAVA01117",
+          "title": "Security in Cloud-based Java Applications"
+        },
+        {
+          "lessonID": "JAVA01118",
+          "title": "Building Reactive Java Applications"
+        },
+        {
+          "lessonID": "JAVA01119",
+          "title": "Reactive Microservices with Spring WebFlux"
+        },
+        {
+          "lessonID": "JAVA01120",
+          "title": "Advanced Reactive Programming with Project Reactor"
+        }
+      ]
+    },
+    {
+      "id": "JAVA012",
+      "title": "Java Web Services",
+      "description": "Explore the world of web services with Java and learn how to build RESTful web services, SOAP-based web services, and more.",
+      "tags": ["RESTful Web Services", "SOAP", "Web Development"],
+      "difficulty": "Intermediate",
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "JAVA01201",
+          "title": "Introduction to Web Services"
+        },
+        {
+          "lessonID": "JAVA01202",
+          "title": "Building a RESTful Web Service"
+        },
+        {
+          "lessonID": "JAVA01203",
+          "title": "RESTful Web Service with Spring Boot"
+        },
+        {
+          "lessonID": "JAVA01204",
+          "title": "Building a SOAP-based Web Service"
+        },
+        {
+          "lessonID": "JAVA01205",
+          "title": "SOAP Web Service with JAX-WS"
+        },
+        {
+          "lessonID": "JAVA01206",
+          "title": "Working with Web Service Clients"
+        },
+        {
+          "lessonID": "JAVA01207",
+          "title": "Web Services Security"
+        },
+        {
+          "lessonID": "JAVA01208",
+          "title": "RESTful Web Service Testing"
+        },
+        {
+          "lessonID": "JAVA01209",
+          "title": "RESTful Web Services with JAX-RS"
+        },
+        {
+          "lessonID": "JAVA01210",
+          "title": "Working with JSON in Java Web Services"
+        },
+        {
+          "lessonID": "JAVA01211",
+          "title": "Web Services Performance Tuning"
+        },
+        {
+          "lessonID": "JAVA01212",
+          "title": "Web Services Best Practices"
+        }
+      ]
+    },
+    {
+      "id": "JAVA013",
+      "title": "JavaFX Programming",
+      "description": "Learn how to create graphical user interfaces (GUIs) using JavaFX, a powerful framework for building Java desktop applications.",
+      "tags": ["JavaFX", "GUI Programming", "Desktop Applications"],
+      "difficulty": "Intermediate",
+      "lessons": 10,
+      "topics": [
+        {
+          "lessonID": "JAVA01301",
+          "title": "Introduction to JavaFX"
+        },
+        {
+          "lessonID": "JAVA01302",
+          "title": "Layouts and Controls"
+        },
+        {
+          "lessonID": "JAVA01303",
+          "title": "Event Handling"
+        },
+        {
+          "lessonID": "JAVA01304",
+          "title": "Working with Graphics"
+        },
+        {
+          "lessonID": "JAVA01305",
+          "title": "Working with Media"
+        },
+        {
+          "lessonID": "JAVA01306",
+          "title": "Working with CSS"
+        },
+        {
+          "lessonID": "JAVA01307",
+          "title": "FXML and Scene Builder"
+        },
+        {
+          "lessonID": "JAVA01308",
+          "title": "Custom Controls"
+        },
+        {
+          "lessonID": "JAVA01309",
+          "title": "Internationalization"
+        },
+        {
+          "lessonID": "JAVA01310",
+          "title": "Deployment"
+        }
+      ]
+    },
+    {
+      "id": "JAVA014",
+      "title": "Java for Android Development",
+      "description": "Start building Android apps with Java, the language of choice for Android development, and learn how to use popular Android development tools like Android Studio and Gradle.",
+      "tags": ["Android Development", "Mobile Apps", "Gradle"],
+      "difficulty": "Intermediate",
+      "lessons": 16,
+      "topics": [
+        {
+          "lessonID": "JAVA01401",
+          "title": "Introduction to Android Development"
+        },
+        {
+          "lessonID": "JAVA01402",
+          "title": "Java Fundamentals for Android Development"
+        },
+        {
+          "lessonID": "JAVA01403",
+          "title": "User Interface Design with Android Studio"
+        },
+        {
+          "lessonID": "JAVA01404",
+          "title": "Android Layouts and Widgets"
+        },
+        {
+          "lessonID": "JAVA01405",
+          "title": "Handling User Input in Android"
+        },
+        {
+          "lessonID": "JAVA01406",
+          "title": "Working with Fragments in Android"
+        },
+        {
+          "lessonID": "JAVA01407",
+          "title": "Android Data Storage"
+        },
+        {
+          "lessonID": "JAVA01408",
+          "title": "Working with Databases in Android"
+        },
+        {
+          "lessonID": "JAVA01409",
+          "title": "Networking and Web Services in Android"
+        },
+        {
+          "lessonID": "JAVA01410",
+          "title": "Background Processing in Android"
+        },
+        {
+          "lessonID": "JAVA01411",
+          "title": "Android Debugging and Testing"
+        },
+        {
+          "lessonID": "JAVA01412",
+          "title": "Introduction to Gradle"
+        },
+        {
+          "lessonID": "JAVA01413",
+          "title": "Building and Running Android Apps with Gradle"
+        },
+        {
+          "lessonID": "JAVA01414",
+          "title": "Publishing Your Android App"
+        },
+        {
+          "lessonID": "JAVA01415",
+          "title": "Monetizing Your Android App"
+        },
+        {
+          "lessonID": "JAVA01416",
+          "title": "Android App Security Best Practices"
+        }
+      ]
+    },
+    {
+      "id": "JAVA015",
+      "title": "Java for Web Development",
+      "description": "Learn how to build dynamic, database-driven web applications with Java and popular web frameworks like Spring and Struts.",
+      "tags": ["Web Development", "Spring Framework", "Struts"],
+      "difficulty": "Intermediate",
+      "lessons": 18,
+      "topics": [
+        {
+          "lessonID": "JAVA01501",
+          "title": "Introduction to Web Development with Java"
+        },
+        {
+          "lessonID": "JAVA01502",
+          "title": "Java Servlets"
+        },
+        {
+          "lessonID": "JAVA01503",
+          "title": "JavaServer Pages (JSP)"
+        },
+        {
+          "lessonID": "JAVA01504",
+          "title": "JavaServer Faces (JSF)"
+        },
+        {
+          "lessonID": "JAVA01505",
+          "title": "Introduction to Spring Framework"
+        },
+        {
+          "lessonID": "JAVA01506",
+          "title": "Spring Boot"
+        },
+        {
+          "lessonID": "JAVA01507",
+          "title": "Spring Data"
+        },
+        {
+          "lessonID": "JAVA01508",
+          "title": "Spring Security"
+        },
+        {
+          "lessonID": "JAVA01509",
+          "title": "Introduction to Struts"
+        },
+        {
+          "lessonID": "JAVA01510",
+          "title": "Building Web Applications with Struts"
+        },
+        {
+          "lessonID": "JAVA01511",
+          "title": "Struts Validation"
+        },
+        {
+          "lessonID": "JAVA01512",
+          "title": "Struts Tiles"
+        },
+        {
+          "lessonID": "JAVA01513",
+          "title": "Introduction to Hibernate"
+        },
+        {
+          "lessonID": "JAVA01514",
+          "title": "Hibernate Query Language (HQL)"
+        },
+        {
+          "lessonID": "JAVA01515",
+          "title": "Hibernate Mapping"
+        },
+        {
+          "lessonID": "JAVA01516",
+          "title": "Hibernate Annotations"
+        },
+        {
+          "lessonID": "JAVA01517",
+          "title": "Hibernate Caching"
+        },
+        {
+          "lessonID": "JAVA01518",
+          "title": "Hibernate Integration with Spring"
+        }
+      ]
+    },
+    {
+      "id": "JAVA016",
+      "title": "Java Security Programming",
+      "description": "Learn how to secure your Java applications against various types of threats, including SQL injection, cross-site scripting (XSS), and more.",
+      "tags": ["Security", "Threats", "Web Applications"],
+      "difficulty": "Advanced",
+      "lessons": 14,
+      "topics": [
+        {
+          "lessonID": "JAVA01601",
+          "title": "Introduction to Java Security"
+        },
+        {
+          "lessonID": "JAVA01602",
+          "title": "Threat Modeling and Risk Assessment"
+        },
+        {
+          "lessonID": "JAVA01603",
+          "title": "Authentication and Authorization"
+        },
+        {
+          "lessonID": "JAVA01604",
+          "title": "Access Control"
+        },
+        {
+          "lessonID": "JAVA01605",
+          "title": "Input Validation and Sanitization"
+        },
+        {
+          "lessonID": "JAVA01606",
+          "title": "Secure Coding Practices"
+        },
+        {
+          "lessonID": "JAVA01607",
+          "title": "SQL Injection and Database Security"
+        },
+        {
+          "lessonID": "JAVA01608",
+          "title": "Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF)"
+        },
+        {
+          "lessonID": "JAVA01609",
+          "title": "Session Management and Cookies"
+        },
+        {
+          "lessonID": "JAVA01610",
+          "title": "Cryptography and Key Management"
+        },
+        {
+          "lessonID": "JAVA01611",
+          "title": "Network Security and SSL/TLS"
+        },
+        {
+          "lessonID": "JAVA01612",
+          "title": "Securing Web Services"
+        },
+        {
+          "lessonID": "JAVA01613",
+          "title": "Secure Deployment and Operations"
+        },
+        {
+          "lessonID": "JAVA01614",
+          "title": "Security Testing and Code Review"
+        }
+      ]
+    },
+    {
+      "id": "JAVA017",
+      "title": "Java Game Development",
+      "description": "Learn how to build games with Java, one of the most popular programming languages in the game development industry.",
+      "tags": ["Game Development", "LibGDX", "Unity"],
+      "difficulty": "Intermediate",
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "JAVA01701",
+          "title": "Introduction to Game Development"
+        },
+        {
+          "lessonID": "JAVA01702",
+          "title": "Setting up a Game Development Environment"
+        },
+        {
+          "lessonID": "JAVA01703",
+          "title": "Game Loop and Rendering"
+        },
+        {
+          "lessonID": "JAVA01704",
+          "title": "Working with Images and Sprites"
+        },
+        {
+          "lessonID": "JAVA01705",
+          "title": "User Input and Interactions"
+        },
+        {
+          "lessonID": "JAVA01706",
+          "title": "Game Physics and Collision Detection"
+        },
+        {
+          "lessonID": "JAVA01707",
+          "title": "Implementing Game Logic"
+        },
+        {
+          "lessonID": "JAVA01708",
+          "title": "Audio in Games"
+        },
+        {
+          "lessonID": "JAVA01709",
+          "title": "Creating Game Assets"
+        },
+        {
+          "lessonID": "JAVA01710",
+          "title": "Distributing and Publishing Games"
+        },
+        {
+          "lessonID": "JAVA01711",
+          "title": "Using LibGDX Game Development Framework"
+        },
+        {
+          "lessonID": "JAVA01712",
+          "title": "Using Unity Game Development Engine"
+        }
+      ]
+    },
+    {
+      "id": "JAVA018",
+      "title": "Java Microservices Development",
+      "description": "Explore the world of microservices with Java and learn how to build scalable and resilient microservices using popular Java technologies like Spring Boot and Netflix OSS.",
+      "tags": ["Microservices", "Spring Boot", "Netflix OSS"],
+      "difficulty": "Advanced",
+      "lessons": 20,
+      "topics": [
+        {
+          "lessonID": "JAVA01801",
+          "title": "Introduction to Microservices"
+        },
+        {
+          "lessonID": "JAVA01802",
+          "title": "Building Microservices with Spring Boot"
+        },
+        {
+          "lessonID": "JAVA01803",
+          "title": "Implementing Service Discovery with Netflix Eureka"
+        },
+        {
+          "lessonID": "JAVA01804",
+          "title": "Building Resilient Microservices with Hystrix"
+        },
+        {
+          "lessonID": "JAVA01805",
+          "title": "Distributed Tracing with Spring Cloud Sleuth"
+        },
+        {
+          "lessonID": "JAVA01806",
+          "title": "API Gateway with Spring Cloud Gateway"
+        },
+        {
+          "lessonID": "JAVA01807",
+          "title": "Message-Driven Microservices with Apache Kafka"
+        },
+        {
+          "lessonID": "JAVA01808",
+          "title": "Microservices Testing Strategies"
+        },
+        {
+          "lessonID": "JAVA01809",
+          "title": "Deploying Microservices with Kubernetes"
+        },
+        {
+          "lessonID": "JAVA01810",
+          "title": "Securing Microservices with OAuth2 and JWT"
+        },
+        {
+          "lessonID": "JAVA01811",
+          "title": "Monitoring Microservices with Prometheus and Grafana"
+        },
+        {
+          "lessonID": "JAVA01812",
+          "title": "Building Serverless Microservices with AWS Lambda"
+        },
+        {
+          "lessonID": "JAVA01813",
+          "title": "Building Reactive Microservices with Spring WebFlux"
+        },
+        {
+          "lessonID": "JAVA01814",
+          "title": "Microservices Best Practices"
+        },
+        {
+          "lessonID": "JAVA01815",
+          "title": "Microservices Architecture Patterns"
+        },
+        {
+          "lessonID": "JAVA01816",
+          "title": "Building Microservices with Quarkus"
+        },
+        {
+          "lessonID": "JAVA01817",
+          "title": "Building Microservices with Micronaut"
+        },
+        {
+          "lessonID": "JAVA01818",
+          "title": "Building Microservices with Helidon"
+        },
+        {
+          "lessonID": "JAVA01819",
+          "title": "Building Microservices with Azure Functions"
+        },
+        {
+          "lessonID": "JAVA01820",
+          "title": "Building Microservices with Google Cloud Functions"
+        }
+      ]
+    },
+    {
+      "id": "JAVA019",
+      "title": "Advanced Java Programming",
+      "description": "This course dives deeper into Java programming concepts and design patterns, and covers advanced topics such as multithreading, networking, and database connectivity.",
+      "tags": [
+        "Multithreading",
+        "Networking",
+        "Database Connectivity",
+        "Design Patterns"
+      ],
+      "difficulty": "Advanced",
+      "lessons": 15,
+      "topics": [
+        {
+          "lessonID": "JAVA01901",
+          "title": "Introduction to Multithreading"
+        },
+        {
+          "lessonID": "JAVA01902",
+          "title": "Synchronization and Locking"
+        },
+        {
+          "lessonID": "JAVA01903",
+          "title": "Thread Pools and Executors"
+        },
+        {
+          "lessonID": "JAVA01904",
+          "title": "Networking with Java"
+        },
+        {
+          "lessonID": "JAVA01905",
+          "title": "HTTP and HTTPS protocols"
+        },
+        {
+          "lessonID": "JAVA01906",
+          "title": "Working with Databases in Java"
+        },
+        {
+          "lessonID": "JAVA01907",
+          "title": "Introduction to Design Patterns"
+        },
+        {
+          "lessonID": "JAVA01908",
+          "title": "Creational Design Patterns"
+        },
+        {
+          "lessonID": "JAVA01909",
+          "title": "Structural Design Patterns"
+        },
+        {
+          "lessonID": "JAVA01910",
+          "title": "Behavioral Design Patterns"
+        },
+        {
+          "lessonID": "JAVA01911",
+          "title": "Advanced I/O in Java"
+        },
+        {
+          "lessonID": "JAVA01912",
+          "title": "Java Security"
+        },
+        {
+          "lessonID": "JAVA01913",
+          "title": "Debugging and Profiling Java Applications"
+        },
+        {
+          "lessonID": "JAVA01914",
+          "title": "Performance Tuning Java Applications"
+        },
+        {
+          "lessonID": "JAVA01915",
+          "title": "Java 9 and Beyond"
+        }
+      ]
+    },
+    {
+      "id": "JAVA020",
+      "title": "Java Web Development",
+      "description": "This course teaches you how to build dynamic web applications using Java and popular web frameworks like Spring and Hibernate. You will learn how to build RESTful web services, handle user authentication and authorization, and interact with databases.",
+      "tags": [
+        "Web Development",
+        "Spring",
+        "Hibernate",
+        "RESTful Web Services",
+        "Authentication",
+        "Authorization",
+        "Databases"
+      ],
+      "difficulty": "Advanced",
+      "lessons": 20,
+      "topics": [
+        {
+          "lessonID": "JAVA02001",
+          "title": "Introduction to Web Development with Java"
+        },
+        {
+          "lessonID": "JAVA02002",
+          "title": "Getting Started with Spring Framework"
+        },
+        {
+          "lessonID": "JAVA02003",
+          "title": "Building RESTful Web Services with Spring"
+        },
+        {
+          "lessonID": "JAVA02004",
+          "title": "Handling User Authentication and Authorization"
+        },
+        {
+          "lessonID": "JAVA02005",
+          "title": "Interacting with Databases Using Hibernate"
+        },
+        {
+          "lessonID": "JAVA02006",
+          "title": "Building Dynamic Web Applications with Spring MVC"
+        },
+        {
+          "lessonID": "JAVA02007",
+          "title": "Securing Web Applications with Spring Security"
+        },
+        {
+          "lessonID": "JAVA02008",
+          "title": "Working with Thymeleaf Templates"
+        },
+        {
+          "lessonID": "JAVA02009",
+          "title": "Building Web Applications with AngularJS and Spring RESTful Services"
+        },
+        {
+          "lessonID": "JAVA02010",
+          "title": "Working with JSON and XML Data"
+        },
+        {
+          "lessonID": "JAVA02011",
+          "title": "Building a Single-Page Application with React and Spring Boot"
+        },
+        {
+          "lessonID": "JAVA02012",
+          "title": "Working with WebSocket and STOMP"
+        },
+        {
+          "lessonID": "JAVA02013",
+          "title": "Deploying Web Applications with Docker"
+        },
+        {
+          "lessonID": "JAVA02014",
+          "title": "Optimizing Web Applications for Performance"
+        },
+        {
+          "lessonID": "JAVA02015",
+          "title": "Managing Web Application Security"
+        },
+        {
+          "lessonID": "JAVA02016",
+          "title": "Introduction to Microservices Architecture"
+        },
+        {
+          "lessonID": "JAVA02017",
+          "title": "Building Microservices with Spring Boot"
+        },
+        {
+          "lessonID": "JAVA02018",
+          "title": "Building Microservices with Netflix OSS"
+        },
+        {
+          "lessonID": "JAVA02019",
+          "title": "Testing and Debugging Microservices"
+        },
+        {
+          "lessonID": "JAVA02020",
+          "title": "Managing Microservices with Kubernetes"
         }
       ]
     }

@@ -7,6 +7,7 @@ export default function Home() {
   const sliders = SliderData.sliders;
   const python = CourseData.python;
   const c = CourseData.c;
+  const java = CourseData.java;
   return (
     <>
     <div className="">
@@ -16,6 +17,7 @@ export default function Home() {
       <div className="flex-col space-y-12">
           <ContentSlider title="Python 101" courses={python}></ContentSlider>
           <ContentSlider title="Binusian Nih Bos" courses={c}></ContentSlider>
+          <ContentSlider title="JavTot" courses={java}></ContentSlider>
         </div>
     </div>
     <Footer/>
