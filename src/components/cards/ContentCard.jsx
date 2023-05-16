@@ -1,6 +1,6 @@
 export default function ContentCard({ courses }) {
     return (
-      <div className="text-d-text bg-d-secondary w-80 h-64 rounded-md border-d-accent border-2 flex-col shadow-md ">
+      <div className="text-d-text bg-d-secondary w-80 h-64 rounded-md border-d-accent border-2 flex-col shadow-md mx-auto">
         <div className="w-full bg-d-accent px-4 py-2 rounded-t-md  text-md font-medium">
           {courses.difficulty}
         </div>

@@ -81,3 +81,5 @@ export default function HomeSlider({ courses }) {
     </Fragment>
   );
 }
+
+//animation belom fluid, mungkin change, fade up agak sus, tags harus clickable
