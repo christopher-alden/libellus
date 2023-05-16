@@ -5,9 +5,9 @@ import CourseData from "../lib/data/CoursesData.json";
 import Footer from "../components/footer/Footer";
 export default function Home() {
   const sliders = SliderData.sliders;
-  const python = CourseData.python;
-  const c = CourseData.c;
-  const java = CourseData.java;
+  const python = CourseData.courses.python;
+  const c = CourseData.courses.c;
+  const java = CourseData.courses.java;
   return (
     <>
       <div className="">
@@ -15,9 +15,9 @@ export default function Home() {
           <HomeSlider courses={sliders}></HomeSlider>
         </div>
         <div className="flex-col space-y-12">
-          <ContentSlider title="Python 101" courses={python}></ContentSlider>
-          <ContentSlider title="Binusian Nih Bos" courses={c}></ContentSlider>
-          <ContentSlider title="JavTot" courses={java}></ContentSlider>
+          <ContentSlider title="Python 101" courses={python} category="python"></ContentSlider>
+          <ContentSlider title="Binusian Nih Bos" courses={c} category="c"></ContentSlider>
+          <ContentSlider title="JavTot" courses={java} category="java"></ContentSlider>
         </div>
       </div>
       <Footer />

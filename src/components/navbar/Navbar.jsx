@@ -40,7 +40,8 @@ export default function Navbar() {
         LIBELLUS
       </div>
       <div className="flex my-auto text-d-text text-lg gap-8 poppins justify-center">
-        <button
+        <a
+          href="/home"
           className={
             activeMenu === "home"
               ? "text-d-accent transition-all duration-150"
@@ -49,18 +50,20 @@ export default function Navbar() {
           onClick={() => setActiveMenu("home")}
         >
           Home
-        </button>
-        <button
+        </a>
+        <a
+          href="/dashboard"
           className={
-            activeMenu === "more"
+            activeMenu === "dashboard"
               ? "text-d-accent transition-all duration-150"
               : ""
           }
           onClick={() => setActiveMenu("more")}
         >
           Dashboard
-        </button>
-        <button
+        </a>
+        <a
+          href="/courses"
           className={
             activeMenu === "courses"
               ? "text-d-accent transition-all duration-150"
@@ -69,8 +72,9 @@ export default function Navbar() {
           onClick={() => setActiveMenu("courses")}
         >
           Courses
-        </button>
-        <button
+        </a>
+        <a
+          href="/videos"
           className={
             activeMenu === "videos"
               ? "text-d-accent transition-all duration-150"
@@ -79,8 +83,9 @@ export default function Navbar() {
           onClick={() => setActiveMenu("videos")}
         >
           Videos
-        </button>
-        <button
+        </a>
+        <a
+          href="/practice"
           className={
             activeMenu === "practice"
               ? "text-d-accent transition-all duration-150"
@@ -89,7 +94,7 @@ export default function Navbar() {
           onClick={() => setActiveMenu("practice")}
         >
           Practice
-        </button>
+        </a>
       </div>
       <div className="my-auto justify-center text-d-accent text-4xl font-bold flex items-center gap-8">
         <img

@@ -13,7 +13,7 @@ export default function Footer() {
   //   }
   return (
     <footer className=" mt-24 py-10 md:py-20 text-d-text bg-d-secondary">
-      <div className="w-screen px-52">
+      <div className="w-screen px-64">
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex justify-center md:order-2">
             <a href="/error" className="mx-4 hover:text-d-accent">

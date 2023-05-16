@@ -7,7 +7,7 @@ import "./ContentSlider.css";
 
 SwiperCore.use([Navigation, Pagination]);
 
-export default function ContentSlider({ title, courses }) {
+export default function ContentSlider({ title, courses, category}) {
   return (
     <div className="w-full flex justify-center ">
       <div className="flex-col w-[1400px]">
@@ -39,7 +39,7 @@ export default function ContentSlider({ title, courses }) {
         >
           {courses.map((course) => (
             <SwiperSlide key={course.id}>
-              <ContentCard courses={course} />
+              <ContentCard courses={course} category={category} />
             </SwiperSlide>
           ))}
         </Swiper>
@@ -47,5 +47,3 @@ export default function ContentSlider({ title, courses }) {
     </div>
   );
 }
-
-// belom ada button controls, size masih belom fix
