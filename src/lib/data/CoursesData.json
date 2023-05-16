@@ -1,4 +1,3 @@
-
 {
   "python": [
     {
@@ -7,7 +6,49 @@
       "description": "Learn the fundamentals of Python programming, including data types, control flow, functions, and more.",
       "tags": ["Fundamentals", "Syntax"],
       "difficulty": "Beginner",
-      "lessons": 10
+      "lessons": 10,
+      "topics": [
+        {
+          "lessonID": "PY00101",
+          "title": "Input/Output in Python"
+        },
+        {
+          "lessonID": "PY00102",
+          "title": "Conditional Statements in Python"
+        },
+        {
+          "lessonID": "PY00103",
+          "title": "Loops in Python"
+        },
+        {
+          "lessonID": "PY00104",
+          "title": "Functions in Python"
+        },
+        {
+          "lessonID": "PY00105",
+          "title": "Lists in Python"
+        },
+        {
+          "lessonID": "PY00106",
+          "title": "Dictionaries in Python"
+        },
+        {
+          "lessonID": "PY00107",
+          "title": "Tuples in Python"
+        },
+        {
+          "lessonID": "PY00108",
+          "title": "Sets in Python"
+        },
+        {
+          "lessonID": "PY00109",
+          "title": "File Handling in Python"
+        },
+        {
+          "lessonID": "PY00110",
+          "title": "Modules and Packages in Python"
+        }
+      ]
     },
     {
       "id": "PY002",
@@ -15,15 +56,95 @@
       "description": "Learn how to use Python's object-oriented features to create reusable and maintainable code.",
       "tags": ["OOP", "Design Patterns"],
       "difficulty": "Intermediate",
-      "lessons": 8
+      "lessons": 8,
+      "topics": [
+        {
+          "lessonID": "PY00201",
+          "title": "Introduction to Object-Oriented Programming"
+        },
+        {
+          "lessonID": "PY00202",
+          "title": "Classes and Objects in Python"
+        },
+        {
+          "lessonID": "PY00203",
+          "title": "Inheritance and Polymorphism in Python"
+        },
+        {
+          "lessonID": "PY00204",
+          "title": "Encapsulation in Python"
+        },
+        {
+          "lessonID": "PY00205",
+          "title": "Abstract Classes and Interfaces in Python"
+        },
+        {
+          "lessonID": "PY00206",
+          "title": "Design Patterns in Python"
+        },
+        {
+          "lessonID": "PY00207",
+          "title": "Exception Handling in Python"
+        },
+        {
+          "lessonID": "PY00208",
+          "title": "Unit Testing in Python"
+        }
+      ]
     },
     {
       "id": "PY003",
       "title": "Python for Data Science",
-      "description": "Learn how to use Python for data analysis, visualization, and machine learning.",
       "tags": ["Data Science", "Machine Learning", "Visualization"],
       "difficulty": "Intermediate",
-      "lessons": 12
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "PY00301",
+          "title": "Introduction to Data Science with Python"
+        },
+        {
+          "lessonID": "PY00302",
+          "title": "Data Manipulation with Pandas"
+        },
+        {
+          "lessonID": "PY00303",
+          "title": "Data Visualization with Matplotlib"
+        },
+        {
+          "lessonID": "PY00304",
+          "title": "Data Visualization with Seaborn"
+        },
+        {
+          "lessonID": "PY00305",
+          "title": "Data Cleaning with Python"
+        },
+        {
+          "lessonID": "PY00306",
+          "title": "Data Preprocessing for Machine Learning"
+        },
+        {
+          "lessonID": "PY00307",
+          "title": "Supervised Learning with Scikit-Learn"
+        },
+        {
+          "lessonID": "PY00308",
+          "title": "Unsupervised Learning with Scikit-Learn"
+        },
+        {
+          "lessonID": "PY00309",
+          "title": "Model Evaluation and Selection"
+        },
+        {
+          "lessonID": "PY00310",
+          "title": "Regression Analysis with Python"
+        },
+        {
+          "lessonID": "PY00311",
+          "title": "Classification with Python"
+        },
+        { "lessonID": "PY00312", "title": "Clustering with Python" }
+      ]
     },
     {
       "id": "PY004",
@@ -31,7 +152,49 @@
       "description": "Build web applications using Python and popular web frameworks like Flask and Django.",
       "tags": ["Web Development", "Flask", "Django"],
       "difficulty": "Intermediate",
-      "lessons": 10
+      "lessons": 10,
+      "topics": [
+        {
+          "lessonID": "PY00401",
+          "title": "Introduction to Web Development with Python"
+        },
+        {
+          "lessonID": "PY00402",
+          "title": "Setting up Flask and Django"
+        },
+        {
+          "lessonID": "PY00403",
+          "title": "Routing and Controllers in Flask"
+        },
+        {
+          "lessonID": "PY00404",
+          "title": "Template Engines in Flask"
+        },
+        {
+          "lessonID": "PY00405",
+          "title": "Database Integration in Flask"
+        },
+        {
+          "lessonID": "PY00406",
+          "title": "MVC Architecture with Django"
+        },
+        {
+          "lessonID": "PY00407",
+          "title": "Database Integration in Django"
+        },
+        {
+          "lessonID": "PY00408",
+          "title": "Forms and Validation in Django"
+        },
+        {
+          "lessonID": "PY00409",
+          "title": "Authentication and Authorization in Django"
+        },
+        {
+          "lessonID": "PY00410",
+          "title": "Deployment and Best Practices"
+        }
+      ]
     },
     {
       "id": "PY005",
@@ -39,7 +202,41 @@
       "description": "Automate repetitive tasks and streamline your workflows using Python.",
       "tags": ["Automation", "Scripting"],
       "difficulty": "Intermediate",
-      "lessons": 8
+      "lessons": 8,
+      "topics": [
+        {
+          "lessonID": "PY00501",
+          "title": "Introduction to Automation and Scripting in Python"
+        },
+        {
+          "lessonID": "PY00502",
+          "title": "Working with Files and Directories in Python"
+        },
+        {
+          "lessonID": "PY00503",
+          "title": "Web Scraping with Python"
+        },
+        {
+          "lessonID": "PY00504",
+          "title": "Automating Email and PDF Manipulation with Python"
+        },
+        {
+          "lessonID": "PY00505",
+          "title": "Data Scraping and Cleaning with Python"
+        },
+        {
+          "lessonID": "PY00506",
+          "title": "Using Python to Automate APIs"
+        },
+        {
+          "lessonID": "PY00507",
+          "title": "Deploying Python Automation Projects"
+        },
+        {
+          "lessonID": "PY00508",
+          "title": "Creating Custom Automation Scripts in Python"
+        }
+      ]
     },
     {
       "id": "PY006",
@@ -47,7 +244,49 @@
       "description": "Learn how to use Python to automate network tasks and manage network devices.",
       "tags": ["Networking", "Automation"],
       "difficulty": "Intermediate",
-      "lessons": 10
+      "lessons": 10,
+      "topics": [
+        {
+          "lessonID": "PY00601",
+          "title": "Introduction to Network Automation with Python"
+        },
+        {
+          "lessonID": "PY00602",
+          "title": "Managing Network Devices with Python"
+        },
+        {
+          "lessonID": "PY00603",
+          "title": "Automating Network Configuration with Python"
+        },
+        {
+          "lessonID": "PY00604",
+          "title": "Parsing Network Data with Python"
+        },
+        {
+          "lessonID": "PY00605",
+          "title": "Using Python for Network Monitoring and Analysis"
+        },
+        {
+          "lessonID": "PY00606",
+          "title": "Working with Network APIs in Python"
+        },
+        {
+          "lessonID": "PY00607",
+          "title": "Network Security Automation with Python"
+        },
+        {
+          "lessonID": "PY00608",
+          "title": "Debugging and Troubleshooting Network Automation Scripts with Python"
+        },
+        {
+          "lessonID": "PY00609",
+          "title": "Testing Network Automation Scripts with Python"
+        },
+        {
+          "lessonID": "PY00610",
+          "title": "Deploying Network Automation Projects with Python"
+        }
+      ]
     },
     {
       "id": "PY007",
@@ -55,7 +294,41 @@
       "description": "Learn how to use Python for financial analysis and modeling.",
       "tags": ["Finance", "Data Analysis"],
       "difficulty": "Intermediate",
-      "lessons": 8
+      "lessons": 8,
+      "topics": [
+        {
+          "lessonID": "PY00701",
+          "title": "Introduction to Python for Finance"
+        },
+        {
+          "lessonID": "PY00702",
+          "title": "Data Analysis with Python"
+        },
+        {
+          "lessonID": "PY00703",
+          "title": "Financial Modeling with Python"
+        },
+        {
+          "lessonID": "PY00704",
+          "title": "Time Series Analysis with Python"
+        },
+        {
+          "lessonID": "PY00705",
+          "title": "Portfolio Optimization with Python"
+        },
+        {
+          "lessonID": "PY00706",
+          "title": "Options Trading Strategies with Python"
+        },
+        {
+          "lessonID": "PY00707",
+          "title": "Risk Management with Python"
+        },
+        {
+          "lessonID": "PY00708",
+          "title": "Deploying Python Finance Projects"
+        }
+      ]
     },
     {
       "id": "PY008",
@@ -63,7 +336,57 @@
       "description": "Learn how to implement common data structures and algorithms in Python.",
       "tags": ["Algorithms", "Data Structures"],
       "difficulty": "Intermediate",
-      "lessons": 12
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "PY00801",
+          "title": "Introduction to Data Structures and Algorithms"
+        },
+        {
+          "lessonID": "PY00802",
+          "title": "Arrays and Linked Lists"
+        },
+        {
+          "lessonID": "PY00803",
+          "title": "Stacks and Queues"
+        },
+        {
+          "lessonID": "PY00804",
+          "title": "Recursion and Backtracking"
+        },
+        {
+          "lessonID": "PY00805",
+          "title": "Sorting Algorithms"
+        },
+        {
+          "lessonID": "PY00806",
+          "title": "Searching Algorithms"
+        },
+        {
+          "lessonID": "PY00807",
+          "title": "Tree Data Structures"
+        },
+        {
+          "lessonID": "PY00808",
+          "title": "Graph Data Structures"
+        },
+        {
+          "lessonID": "PY00809",
+          "title": "Dynamic Programming"
+        },
+        {
+          "lessonID": "PY00810",
+          "title": "Big O Notation"
+        },
+        {
+          "lessonID": "PY00811",
+          "title": "Common Algorithms and Data Structures Interview Questions"
+        },
+        {
+          "lessonID": "PY00812",
+          "title": "Applying Data Structures and Algorithms in Real-World Projects"
+        }
+      ]
     },
     {
       "id": "PY009",
@@ -71,15 +394,91 @@
       "description": "Build graphical user interfaces (GUIs) using Python and libraries like Tkinter and PyQt.",
       "tags": ["GUI Programming", "Tkinter", "PyQt"],
       "difficulty": "Intermediate",
-      "lessons": 10
+      "lessons": 10,
+      "topics": [
+        {
+          "lessonID": "PY00901",
+          "title": "Introduction to GUI Programming with Python"
+        },
+        {
+          "lessonID": "PY00902",
+          "title": "Creating Windows and Dialogs with Tkinter"
+        },
+        {
+          "lessonID": "PY00903",
+          "title": "Designing User Interfaces with PyQt Designer"
+        },
+        {
+          "lessonID": "PY00904",
+          "title": "Programming GUIs with PyQt"
+        },
+        {
+          "lessonID": "PY00905",
+          "title": "Advanced GUI Programming Techniques with Python"
+        },
+        {
+          "lessonID": "PY00906",
+          "title": "Data Visualization with Matplotlib"
+        },
+        {
+          "lessonID": "PY00907",
+          "title": "Working with Databases in GUI Applications"
+        },
+        {
+          "lessonID": "PY00908",
+          "title": "Creating Custom Widgets with Tkinter and PyQt"
+        },
+        {
+          "lessonID": "PY00909",
+          "title": "Debugging and Testing GUI Applications"
+        },
+        {
+          "lessonID": "PY00910",
+          "title": "Packaging and Distributing GUI Applications"
+        }
+      ]
     },
     {
-      "id": "PY0010",
+      "id": "PY010",
       "title": "Python Web Scraping",
       "description": "Learn how to extract data from websites using Python and libraries like BeautifulSoup and Scrapy.",
       "tags": ["Web Scraping", "Data Extraction"],
       "difficulty": "Intermediate",
-      "lessons": 8
+      "lessons": 8,
+      "topics": [
+        {
+          "lessonID": "PY01001",
+          "title": "Introduction to Web Scraping with Python"
+        },
+        {
+          "lessonID": "PY01002",
+          "title": "Understanding HTML and CSS"
+        },
+        {
+          "lessonID": "PY01003",
+          "title": "Scraping Data with BeautifulSoup"
+        },
+        {
+          "lessonID": "PY01004",
+          "title": "Scraping Data with Scrapy"
+        },
+        {
+          "lessonID": "PY01005",
+          "title": "Scraping Dynamic Web Pages"
+        },
+        {
+          "lessonID": "PY01006",
+          "title": "Handling Data with Pandas"
+        },
+        {
+          "lessonID": "PY01007",
+          "title": "Storing Data with SQLite"
+        },
+        {
+          "lessonID": "PY01008",
+          "title": "Putting it All Together: A Web Scraping Project"
+        }
+      ]
     },
     {
       "id": "PY011",
@@ -87,15 +486,107 @@
       "description": "Explore advanced topics in Python programming, including metaclasses, decorators, and concurrency.",
       "tags": ["Metaclasses", "Decorators", "Concurrency"],
       "difficulty": "Advanced",
-      "lessons": 10
+      "lessons": 10,
+      "topics": [
+        {
+          "lessonID": "PY01101",
+          "title": "Introduction to Metaclasses"
+        },
+        {
+          "lessonID": "PY01102",
+          "title": "Advanced Decorators"
+        },
+        {
+          "lessonID": "PY01103",
+          "title": "Concurrency with Threads and Processes"
+        },
+        {
+          "lessonID": "PY01104",
+          "title": "Asynchronous Programming with asyncio"
+        },
+        {
+          "lessonID": "PY01105",
+          "title": "Advanced OOP Concepts in Python"
+        },
+        {
+          "lessonID": "PY01106",
+          "title": "Functional Programming in Python"
+        },
+        {
+          "lessonID": "PY01107",
+          "title": "Advanced Python Data Structures"
+        },
+        {
+          "lessonID": "PY01108",
+          "title": "Python for Scientific Computing"
+        },
+        {
+          "lessonID": "PY01109",
+          "title": "Python for Machine Learning"
+        },
+        {
+          "lessonID": "PY01110",
+          "title": "Python for Web Development"
+        }
+      ]
     },
     {
-      "id": "PY012",
-      "title": "Python Testing and Debugging",
-      "description": "Learn how to write effective tests and debug Python code using tools like pytest and pdb.",
-      "tags": ["Testing", "Debugging", "Pytest", "Pdb"],
+      "id": "PY013",
+      "title": "Python for Machine Learning",
+      "description": "Learn how to use Python and popular machine learning libraries like scikit-learn and TensorFlow to build and train machine learning models.",
+      "tags": ["Machine Learning", "Data Science"],
       "difficulty": "Intermediate",
-      "lessons": 10
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "PY01301",
+          "title": "Introduction to Machine Learning"
+        },
+        {
+          "lessonID": "PY01302",
+          "title": "Data Preprocessing for Machine Learning"
+        },
+        {
+          "lessonID": "PY01303",
+          "title": "Regression Analysis with Python"
+        },
+        {
+          "lessonID": "PY01304",
+          "title": "Classification with Python"
+        },
+        {
+          "lessonID": "PY01305",
+          "title": "Clustering with Python"
+        },
+        {
+          "lessonID": "PY01306",
+          "title": "Neural Networks and Deep Learning with Python"
+        },
+        {
+          "lessonID": "PY01307",
+          "title": "Machine Learning Pipelines with scikit-learn"
+        },
+        {
+          "lessonID": "PY01308",
+          "title": "Natural Language Processing with Python"
+        },
+        {
+          "lessonID": "PY01309",
+          "title": "Recommendation Engines with Python"
+        },
+        {
+          "lessonID": "PY01310",
+          "title": "Deploying Machine Learning Models"
+        },
+        {
+          "lessonID": "PY01311",
+          "title": "Advanced Topics in Machine Learning"
+        },
+        {
+          "lessonID": "PY01312",
+          "title": "Case Studies and Applications"
+        }
+      ]
     },
     {
       "id": "PY013",
@@ -103,7 +594,57 @@
       "description": "Learn how to use Python for natural language processing tasks like text classification and sentiment analysis.",
       "tags": ["NLP", "Text Classification", "Sentiment Analysis"],
       "difficulty": "Intermediate",
-      "lessons": 12
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "PY01301",
+          "title": "Introduction to Natural Language Processing"
+        },
+        {
+          "lessonID": "PY01302",
+          "title": "Working with Text Data in Python"
+        },
+        {
+          "lessonID": "PY01303",
+          "title": "Preprocessing Text Data with NLTK"
+        },
+        {
+          "lessonID": "PY01304",
+          "title": "Text Classification with Naive Bayes"
+        },
+        {
+          "lessonID": "PY01305",
+          "title": "Text Classification with Support Vector Machines"
+        },
+        {
+          "lessonID": "PY01306",
+          "title": "Sentiment Analysis with NLTK"
+        },
+        {
+          "lessonID": "PY01307",
+          "title": "Sentiment Analysis with TextBlob"
+        },
+        {
+          "lessonID": "PY01308",
+          "title": "Topic Modeling with LDA"
+        },
+        {
+          "lessonID": "PY01309",
+          "title": "Named Entity Recognition with spaCy"
+        },
+        {
+          "lessonID": "PY01310",
+          "title": "Building a Chatbot with Python and NLTK"
+        },
+        {
+          "lessonID": "PY01311",
+          "title": "Deploying NLP Models with Flask"
+        },
+        {
+          "lessonID": "PY01312",
+          "title": "Advanced NLP Topics"
+        }
+      ]
     },
     {
       "id": "PY014",
@@ -111,15 +652,151 @@
       "description": "Explore advanced machine learning techniques in Python, including deep learning and reinforcement learning.",
       "tags": ["Machine Learning", "Deep Learning", "Reinforcement Learning"],
       "difficulty": "Advanced",
-      "lessons": 15
+      "lessons": 15,
+      "topics": [
+        {
+          "lessonID": "PY01401",
+          "title": "Introduction to Machine Learning"
+        },
+        {
+          "lessonID": "PY01402",
+          "title": "Supervised Learning: Regression"
+        },
+        {
+          "lessonID": "PY01403",
+          "title": "Supervised Learning: Classification"
+        },
+        {
+          "lessonID": "PY01404",
+          "title": "Unsupervised Learning: Clustering"
+        },
+        {
+          "lessonID": "PY01405",
+          "title": "Unsupervised Learning: Dimensionality Reduction"
+        },
+        {
+          "lessonID": "PY01406",
+          "title": "Deep Learning with Neural Networks"
+        },
+        {
+          "lessonID": "PY01407",
+          "title": "Convolutional Neural Networks for Image Classification"
+        },
+        {
+          "lessonID": "PY01408",
+          "title": "Recurrent Neural Networks for Time Series Analysis"
+        },
+        {
+          "lessonID": "PY01409",
+          "title": "Generative Adversarial Networks for Image Generation"
+        },
+        {
+          "lessonID": "PY01410",
+          "title": "Reinforcement Learning with Q-Learning"
+        },
+        {
+          "lessonID": "PY01411",
+          "title": "Reinforcement Learning with Deep Q-Networks"
+        },
+        {
+          "lessonID": "PY01412",
+          "title": "Natural Language Processing with Deep Learning"
+        },
+        {
+          "lessonID": "PY01413",
+          "title": "Transfer Learning for Machine Learning"
+        },
+        {
+          "lessonID": "PY01414",
+          "title": "Building Machine Learning Pipelines"
+        },
+        {
+          "lessonID": "PY01415",
+          "title": "Deploying Machine Learning Models"
+        }
+      ]
     },
     {
       "id": "PY015",
       "title": "Python for Deep Learning",
       "description": "Learn how to use Python and popular deep learning frameworks like TensorFlow and PyTorch to build neural networks.",
-      "tags": ["Deep Learning", "Neural networks", "TensorFlow", "PyTorch"],
+      "tags": ["Deep Learning", "Neural Networks", "TensorFlow", "PyTorch"],
       "difficulty": "Advanced",
-      "lessons": 18
+      "lessons": 18,
+      "topics": [
+        {
+          "lessonID": "PY01501",
+          "title": "Introduction to Deep Learning"
+        },
+        {
+          "lessonID": "PY01502",
+          "title": "Working with Data in Deep Learning"
+        },
+        {
+          "lessonID": "PY01503",
+          "title": "Building and Training a Neural Network with TensorFlow"
+        },
+        {
+          "lessonID": "PY01504",
+          "title": "Advanced Neural Network Architectures with TensorFlow"
+        },
+        {
+          "lessonID": "PY01505",
+          "title": "Convolutional Neural Networks with TensorFlow"
+        },
+        {
+          "lessonID": "PY01506",
+          "title": "Recurrent Neural Networks with TensorFlow"
+        },
+        {
+          "lessonID": "PY01507",
+          "title": "Autoencoders with TensorFlow"
+        },
+        {
+          "lessonID": "PY01508",
+          "title": "Generative Adversarial Networks with TensorFlow"
+        },
+        {
+          "lessonID": "PY01509",
+          "title": "Building and Training a Neural Network with PyTorch"
+        },
+        {
+          "lessonID": "PY01510",
+          "title": "Advanced Neural Network Architectures with PyTorch"
+        },
+        {
+          "lessonID": "PY01511",
+          "title": "Convolutional Neural Networks with PyTorch"
+        },
+        {
+          "lessonID": "PY01512",
+          "title": "Recurrent Neural Networks with PyTorch"
+        },
+        {
+          "lessonID": "PY01513",
+          "title": "Autoencoders with PyTorch"
+        },
+        {
+          "lessonID": "PY01514",
+          "title": "Generative Adversarial Networks with PyTorch"
+        },
+        {
+          "lessonID": "PY01515",
+          "title": "Transfer Learning with Deep Learning"
+        },
+        {
+          "lessonID": "PY01516",
+          "title": "Deployment and Productionizing of Deep Learning Models"
+        },
+        {
+          "lessonID": "PY01517",
+          "title": "Advanced Deep Learning Topics"
+        },
+        {
+          "lessonID": "PY01518",
+          "title": "Project: Build a Deep Learning Model from Scratch"
+        }
+      ]
     },
     {
       "id": "PY016",
@@ -127,7 +804,65 @@
       "description": "Learn how to use Python and libraries like OpenCV to analyze and manipulate images and videos.",
       "tags": ["Computer Vision", "Image Processing", "OpenCV"],
       "difficulty": "Advanced",
-      "lessons": 14
+      "lessons": 14,
+      "topics": [
+        {
+          "lessonID": "PY01601",
+          "title": "Introduction to Computer Vision"
+        },
+        {
+          "lessonID": "PY01602",
+          "title": "Image Processing with OpenCV"
+        },
+        {
+          "lessonID": "PY01603",
+          "title": "Image Filtering and Transformation with OpenCV"
+        },
+        {
+          "lessonID": "PY01604",
+          "title": "Object Detection with OpenCV"
+        },
+        {
+          "lessonID": "PY01605",
+          "title": "Face Recognition with OpenCV"
+        },
+        {
+          "lessonID": "PY01606",
+          "title": "Image Segmentation with OpenCV"
+        },
+        {
+          "lessonID": "PY01607",
+          "title": "Feature Detection and Matching with OpenCV"
+        },
+        {
+          "lessonID": "PY01608",
+          "title": "Motion Analysis and Tracking with OpenCV"
+        },
+        {
+          "lessonID": "PY01609",
+          "title": "Camera Calibration with OpenCV"
+        },
+        {
+          "lessonID": "PY01610",
+          "title": "3D Reconstruction with OpenCV"
+        },
+        {
+          "lessonID": "PY01611",
+          "title": "Video Processing and Analysis with OpenCV"
+        },
+        {
+          "lessonID": "PY01612",
+          "title": "Object Tracking with OpenCV"
+        },
+        {
+          "lessonID": "PY01613",
+          "title": "Deep Learning for Computer Vision with TensorFlow and Keras"
+        },
+        {
+          "lessonID": "PY01614",
+          "title": "Advanced Topics in Computer Vision"
+        }
+      ]
     },
     {
       "id": "PY017",
@@ -135,7 +870,89 @@
       "description": "Learn how to use Python to generate human-like text using techniques like GPT-3 and LSTM.",
       "tags": ["NLP", "Text Generation", "GPT-3", "LSTM"],
       "difficulty": "Advanced",
-      "lessons": 20
+      "lessons": 20,
+      "topics": [
+        {
+          "lessonID": "PY01701",
+          "title": "Introduction to Natural Language Generation"
+        },
+        {
+          "lessonID": "PY01702",
+          "title": "Working with Text Data in Python"
+        },
+        {
+          "lessonID": "PY01703",
+          "title": "Introduction to Neural Networks"
+        },
+        {
+          "lessonID": "PY01704",
+          "title": "Recurrent Neural Networks (RNNs)"
+        },
+        {
+          "lessonID": "PY01705",
+          "title": "Long Short-Term Memory (LSTM) Networks"
+        },
+        {
+          "lessonID": "PY01706",
+          "title": "Introduction to Generative Models"
+        },
+        {
+          "lessonID": "PY01707",
+          "title": "Language Models and Text Generation"
+        },
+        {
+          "lessonID": "PY01708",
+          "title": "Training a Language Model with PyTorch"
+        },
+        {
+          "lessonID": "PY01709",
+          "title": "Fine-Tuning a Pretrained Language Model"
+        },
+        {
+          "lessonID": "PY01710",
+          "title": "GPT-3 and Advanced Language Models"
+        },
+        {
+          "lessonID": "PY01711",
+          "title": "Evaluation Metrics for Text Generation"
+        },
+        {
+          "lessonID": "PY01712",
+          "title": "Generating Text with LSTM Networks"
+        },
+        {
+          "lessonID": "PY01713",
+          "title": "Generating Text with GANs"
+        },
+        {
+          "lessonID": "PY01714",
+          "title": "Generating Image Captions with CNNs and RNNs"
+        },
+        {
+          "lessonID": "PY01715",
+          "title": "Generating Music with LSTM Networks"
+        },
+        {
+          "lessonID": "PY01716",
+          "title": "Generating Art with GANs"
+        },
+        {
+          "lessonID": "PY01717",
+          "title": "Generating Code with GPT-3 and Other Techniques"
+        },
+        {
+          "lessonID": "PY01718",
+          "title": "Ethical Considerations for Text Generation"
+        },
+        {
+          "lessonID": "PY01719",
+          "title": "Applications of Natural Language Generation"
+        },
+        {
+          "lessonID": "PY01720",
+          "title": "Deploying NLP Models with Flask"
+        }
+      ]
     },
     {
       "id": "PY018",
@@ -143,7 +960,73 @@
       "description": "Learn how to use Python to process and analyze large datasets using tools like Apache Spark and Dask.",
       "tags": ["Big Data", "Data Processing", "Apache Spark", "Dask"],
       "difficulty": "Advanced",
-      "lessons": 16
+      "lessons": 16,
+      "topics": [
+        {
+          "lessonID": "PY01801",
+          "title": "Introduction to Big Data Processing"
+        },
+        {
+          "lessonID": "PY01802",
+          "title": "Working with Large Datasets in Python"
+        },
+        {
+          "lessonID": "PY01803",
+          "title": "Introduction to Distributed Computing"
+        },
+        {
+          "lessonID": "PY01804",
+          "title": "Introduction to Apache Spark"
+        },
+        {
+          "lessonID": "PY01805",
+          "title": "Working with Spark RDDs"
+        },
+        {
+          "lessonID": "PY01806",
+          "title": "Working with Spark DataFrames"
+        },
+        {
+          "lessonID": "PY01807",
+          "title": "Spark SQL and Data Analysis"
+        },
+        {
+          "lessonID": "PY01808",
+          "title": "Introduction to Dask"
+        },
+        {
+          "lessonID": "PY01809",
+          "title": "Working with Dask Arrays and DataFrames"
+        },
+        {
+          "lessonID": "PY01810",
+          "title": "Dask and Distributed Computing"
+        },
+        {
+          "lessonID": "PY01811",
+          "title": "Processing Big Data with Pandas"
+        },
+        {
+          "lessonID": "PY01812",
+          "title": "Processing Big Data with NumPy"
+        },
+        {
+          "lessonID": "PY01813",
+          "title": "Machine Learning with Big Data"
+        },
+        {
+          "lessonID": "PY01814",
+          "title": "Big Data Visualization"
+        },
+        {
+          "lessonID": "PY01815",
+          "title": "Big Data Streaming"
+        },
+        {
+          "lessonID": "PY01816",
+          "title": "Deploying Big Data Applications"
+        }
+      ]
     },
     {
       "id": "PY019",
@@ -151,7 +1034,61 @@
       "description": "Learn how to use Python to automate and manage infrastructure, build pipelines, and deploy applications.",
       "tags": ["DevOps", "Automation", "Deployment"],
       "difficulty": "Advanced",
-      "lessons": 13
+      "lessons": 13,
+      "topics": [
+        {
+          "lessonID": "PY01901",
+          "title": "Introduction to DevOps and Automation"
+        },
+        {
+          "lessonID": "PY01902",
+          "title": "Using Python for Infrastructure Management"
+        },
+        {
+          "lessonID": "PY01903",
+          "title": "Configuration Management with Ansible"
+        },
+        {
+          "lessonID": "PY01904",
+          "title": "Building and Managing Containers with Docker"
+        },
+        {
+          "lessonID": "PY01905",
+          "title": "Managing Kubernetes with Python"
+        },
+        {
+          "lessonID": "PY01906",
+          "title": "Building CI/CD Pipelines with Jenkins"
+        },
+        {
+          "lessonID": "PY01907",
+          "title": "Building CI/CD Pipelines with GitLab CI/CD"
+        },
+        {
+          "lessonID": "PY01908",
+          "title": "Building CI/CD Pipelines with Travis CI"
+        },
+        {
+          "lessonID": "PY01909",
+          "title": "Managing Infrastructure as Code with Terraform"
+        },
+        {
+          "lessonID": "PY01910",
+          "title": "Deploying Applications with Fabric"
+        },
+        {
+          "lessonID": "PY01911",
+          "title": "Managing Serverless Applications with AWS Lambda"
+        },
+        {
+          "lessonID": "PY01912",
+          "title": "Managing Cloud Resources with Boto3"
+        },
+        {
+          "lessonID": "PY01913",
+          "title": "Best Practices for Python DevOps"
+        }
+      ]
     }
   ],
   "c": [
@@ -161,7 +1098,49 @@
       "description": "Learn the basics of C programming, including data types, variables, operators, control structures, and functions.",
       "tags": ["Fundamentals", "Syntax"],
       "difficulty": "Beginner",
-      "lessons": "10"
+      "lessons": "10",
+      "topics": [
+        {
+          "lessonID": "C00101",
+          "title": "Introduction to C Programming"
+        },
+        {
+          "lessonID": "C00102",
+          "title": "Data Types and Variables"
+        },
+        {
+          "lessonID": "C00103",
+          "title": "Operators and Expressions"
+        },
+        {
+          "lessonID": "C00104",
+          "title": "Control Structures"
+        },
+        {
+          "lessonID": "C00105",
+          "title": "Functions"
+        },
+        {
+          "lessonID": "C00106",
+          "title": "Arrays and Strings"
+        },
+        {
+          "lessonID": "C00107",
+          "title": "Pointers"
+        },
+        {
+          "lessonID": "C00108",
+          "title": "Structures and Unions"
+        },
+        {
+          "lessonID": "C00109",
+          "title": "File Input/Output"
+        },
+        {
+          "lessonID": "C00110",
+          "title": "Debugging and Error Handling"
+        }
+      ]
     },
     {
       "id": "C002",
@@ -169,23 +1148,137 @@
       "description": "Understand how to use arrays and strings in C programming, including array declaration, initialization, accessing array elements, and string manipulation.",
       "tags": ["Arrays", "Strings"],
       "difficulty": "Beginner",
-      "lessons": "8"
+      "lessons": "8",
+      "topics": [
+        {
+          "lessonID": "C00201",
+          "title": "Introduction to Arrays"
+        },
+        {
+          "lessonID": "C00202",
+          "title": "Declaring and Initializing Arrays"
+        },
+        {
+          "lessonID": "C00203",
+          "title": "Accessing Array Elements"
+        },
+        {
+          "lessonID": "C00204",
+          "title": "Multidimensional Arrays"
+        },
+        {
+          "lessonID": "C00205",
+          "title": "Introduction to Strings"
+        },
+        {
+          "lessonID": "C00206",
+          "title": "Declaring and Initializing Strings"
+        },
+        {
+          "lessonID": "C00207",
+          "title": "String Manipulation"
+        },
+        {
+          "lessonID": "C00208",
+          "title": "Working with Character Arrays"
+        }
+      ]
     },
     {
       "id": "C003",
       "title": "Pointers in C",
       "description": "Learn about the concept of pointers in C programming and how to use them to manipulate data directly in memory.",
-      "tags": [ "Pointers", "Memory"],
+      "tags": ["Pointers", "Memory"],
       "difficulty": "Intermediate",
-      "lessons": "6"
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "C00301",
+          "title": "Introduction to Pointers"
+        },
+        {
+          "lessonID": "C00302",
+          "title": "Pointer Arithmetic"
+        },
+        {
+          "lessonID": "C00303",
+          "title": "Pointers and Functions"
+        },
+        {
+          "lessonID": "C00304",
+          "title": "Pointers and Arrays"
+        },
+        {
+          "lessonID": "C00305",
+          "title": "Pointers and Structures"
+        },
+        {
+          "lessonID": "C00306",
+          "title": "Dynamic Memory Allocation"
+        },
+        {
+          "lessonID": "C00307",
+          "title": "Null Pointers and Segmentation Faults"
+        },
+        {
+          "lessonID": "C00308",
+          "title": "Pointers to Pointers"
+        },
+        {
+          "lessonID": "C00309",
+          "title": "Function Pointers"
+        },
+        {
+          "lessonID": "C00310",
+          "title": "Pointers and Multidimensional Arrays"
+        },
+        {
+          "lessonID": "C00311",
+          "title": "Pointers and Linked Lists"
+        },
+        {
+          "lessonID": "C00312",
+          "title": "Advanced Pointer Topics"
+        }
+      ]
     },
     {
       "id": "C004",
       "title": "Dynamic Memory Allocation in C",
-      "description": "Understand how to allocate and deallocate memory dynamically in C programming using functions such as malloc, calloc, and realloc.",
-      "tags": [ "Memory Allocation", "Pointers"],
+      "description": "Learn how to allocate and deallocate memory dynamically in C programming using functions such as malloc, calloc, and realloc.",
+      "tags": ["Memory Allocation", "Pointers"],
       "difficulty": "Intermediate",
-      "lessons": "7"
+      "lessons": 7,
+      "topics": [
+        {
+          "lessonID": "C00401",
+          "title": "Introduction to Dynamic Memory Allocation"
+        },
+        {
+          "lessonID": "C00402",
+          "title": "Malloc and Calloc Functions"
+        },
+        {
+          "lessonID": "C00403",
+          "title": "Realloc Function"
+        },
+        {
+          "lessonID": "C00404",
+          "title": "Memory Leak and Memory Corruption"
+        },
+        {
+          "lessonID": "C00405",
+          "title": "Dynamic Memory Allocation and Pointers"
+        },
+        {
+          "lessonID": "C00406",
+          "title": "Dynamic Memory Allocation and Strings"
+        },
+        {
+          "lessonID": "C00407",
+          "title": "Dynamic Data Structures"
+        }
+      ]
     },
     {
       "id": "C005",
@@ -193,7 +1286,41 @@
       "description": "Learn how to use structures and unions in C programming, including declaration, initialization, accessing structure elements, and typecasting.",
       "tags": ["Structures", "Unions"],
       "difficulty": "Intermediate",
-      "lessons": "8"
+      "lessons": 8,
+      "topics": [
+        {
+          "lessonID": "C00501",
+          "title": "Introduction to Structures"
+        },
+        {
+          "lessonID": "C00502",
+          "title": "Declaring and Initializing Structures"
+        },
+        {
+          "lessonID": "C00503",
+          "title": "Accessing Structure Elements"
+        },
+        {
+          "lessonID": "C00504",
+          "title": "Nested Structures"
+        },
+        {
+          "lessonID": "C00505",
+          "title": "Introduction to Unions"
+        },
+        {
+          "lessonID": "C00506",
+          "title": "Declaring and Initializing Unions"
+        },
+        {
+          "lessonID": "C00507",
+          "title": "Accessing Union Elements"
+        },
+        {
+          "lessonID": "C00508",
+          "title": "Structures vs. Unions"
+        }
+      ]
     },
     {
       "id": "C006",
@@ -201,7 +1328,33 @@
       "description": "Understand how to perform file input/output operations in C programming, including opening, closing, reading, and writing files.",
       "tags": ["File I/O", "Streams"],
       "difficulty": "Intermediate",
-      "lessons": "6"
+      "lessons": 6,
+      "topics": [
+        {
+          "lessonID": "C00601",
+          "title": "Introduction to File Input/Output"
+        },
+        {
+          "lessonID": "C00602",
+          "title": "Opening and Closing Files"
+        },
+        {
+          "lessonID": "C00603",
+          "title": "Reading and Writing Characters"
+        },
+        {
+          "lessonID": "C00604",
+          "title": "Reading and Writing Strings"
+        },
+        {
+          "lessonID": "C00605",
+          "title": "Reading and Writing Binary Data"
+        },
+        {
+          "lessonID": "C00606",
+          "title": "Error Handling and File Positioning"
+        }
+      ]
     },
     {
       "id": "C007",
@@ -209,7 +1362,29 @@
       "description": "Learn how to implement recursive functions in C programming, including base case, recursive case, and stack overflow.",
       "tags": ["Recursion", "Functions"],
       "difficulty": "Intermediate",
-      "lessons": "5"
+      "lessons": 5,
+      "topics": [
+        {
+          "lessonID": "C00701",
+          "title": "Introduction to Recursion"
+        },
+        {
+          "lessonID": "C00702",
+          "title": "Recursive Functions"
+        },
+        {
+          "lessonID": "C00703",
+          "title": "Base Case and Recursive Case"
+        },
+        {
+          "lessonID": "C00704",
+          "title": "Recursion vs Iteration"
+        },
+        {
+          "lessonID": "C00705",
+          "title": "Handling Stack Overflow"
+        }
+      ]
     },
     {
       "id": "C008",
@@ -217,7 +1392,49 @@
       "description": "Learn about advanced data structures such as trees, graphs, and hash tables, and how to implement them in C programming.",
       "tags": ["Data Structures", "Algorithms"],
       "difficulty": "Advanced",
-      "lessons": "10"
+      "lessons": 10,
+      "topics": [
+        {
+          "lessonID": "C00801",
+          "title": "Introduction to Advanced Data Structures"
+        },
+        {
+          "lessonID": "C00802",
+          "title": "Binary Trees and Binary Search Trees"
+        },
+        {
+          "lessonID": "C00803",
+          "title": "AVL Trees and Red-Black Trees"
+        },
+        {
+          "lessonID": "C00804",
+          "title": "B-Trees and B+ Trees"
+        },
+        {
+          "lessonID": "C00805",
+          "title": "Tries and Suffix Trees"
+        },
+        {
+          "lessonID": "C00806",
+          "title": "Heaps and Priority Queues"
+        },
+        {
+          "lessonID": "C00807",
+          "title": "Graphs and Graph Algorithms"
+        },
+        {
+          "lessonID": "C00808",
+          "title": "Hash Tables and Hash Functions"
+        },
+        {
+          "lessonID": "C00809",
+          "title": "Collision Resolution Techniques"
+        },
+        {
+          "lessonID": "C00810",
+          "title": "Advanced Hashing Techniques"
+        }
+      ]
     },
     {
       "id": "C009",
@@ -225,7 +1442,45 @@
       "description": "Understand how to write concurrent programs in C using threads, synchronization, and mutual exclusion techniques.",
       "tags": ["Concurrency", "Multithreading"],
       "difficulty": "Advanced",
-      "lessons": "9"
+      "lessons": "9",
+      "topics": [
+        {
+          "lessonID": "C00901",
+          "title": "Introduction to Concurrency"
+        },
+        {
+          "lessonID": "C00902",
+          "title": "Threads in C"
+        },
+        {
+          "lessonID": "C00903",
+          "title": "Synchronization and Mutual Exclusion"
+        },
+        {
+          "lessonID": "C00904",
+          "title": "Deadlocks and Livelocks"
+        },
+        {
+          "lessonID": "C00905",
+          "title": "Race Conditions and Critical Sections"
+        },
+        {
+          "lessonID": "C00906",
+          "title": "Semaphores and Monitors"
+        },
+        {
+          "lessonID": "C00907",
+          "title": "Message Passing and Sockets"
+        },
+        {
+          "lessonID": "C00908",
+          "title": "Concurrency Debugging and Testing"
+        },
+        {
+          "lessonID": "C00909",
+          "title": "Advanced Concurrency Topics"
+        }
+      ]
     },
     {
       "id": "C010",
@@ -233,7 +1488,41 @@
       "description": "Learn how to create network applications using socket programming in C, including socket creation, binding, and connecting.",
       "tags": ["Networking", "Sockets"],
       "difficulty": "Advanced",
-      "lessons": "8"
+      "lessons": 8,
+      "topics": [
+        {
+          "lessonID": "C01001",
+          "title": "Introduction to Socket Programming"
+        },
+        {
+          "lessonID": "C01002",
+          "title": "Socket Address Structures"
+        },
+        {
+          "lessonID": "C01003",
+          "title": "Creating Sockets"
+        },
+        {
+          "lessonID": "C01004",
+          "title": "Binding and Listening"
+        },
+        {
+          "lessonID": "C01005",
+          "title": "Connecting to a Server"
+        },
+        {
+          "lessonID": "C01006",
+          "title": "Sending and Receiving Data"
+        },
+        {
+          "lessonID": "C01007",
+          "title": "Blocking and Non-Blocking Sockets"
+        },
+        {
+          "lessonID": "C01008",
+          "title": "Advanced Socket Topics"
+        }
+      ]
     },
     {
       "id": "C011",
@@ -241,15 +1530,95 @@
       "description": "Understand how to create 2D and 3D graphics using OpenGL programming in C, including basic OpenGL functions, rendering, and shading.",
       "tags": ["Graphics", "OpenGL"],
       "difficulty": "Advanced",
-      "lessons": "12"
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "C01101",
+          "title": "Introduction to OpenGL"
+        },
+        {
+          "lessonID": "C01102",
+          "title": "Graphics Pipeline"
+        },
+        {
+          "lessonID": "C01103",
+          "title": "OpenGL Shading Language"
+        },
+        {
+          "lessonID": "C01104",
+          "title": "Rendering Techniques"
+        },
+        {
+          "lessonID": "C01105",
+          "title": "Texture Mapping"
+        },
+        {
+          "lessonID": "C01106",
+          "title": "Lighting and Shadows"
+        },
+        {
+          "lessonID": "C01107",
+          "title": "Framebuffers and Renderbuffers"
+        },
+        {
+          "lessonID": "C01108",
+          "title": "Advanced Rendering Techniques"
+        },
+        {
+          "lessonID": "C01109",
+          "title": "Creating 3D Objects"
+        },
+        {
+          "lessonID": "C01110",
+          "title": "Camera Control"
+        },
+        {
+          "lessonID": "C01111",
+          "title": "Animation and Interactivity"
+        },
+        {
+          "lessonID": "C01112",
+          "title": "Optimization and Performance"
+        }
+      ]
     },
     {
       "id": "C012",
       "title": "Compiler Design in C",
-      "description": "Learn how to design andimplement a compiler in C programming, including lexical analysis, parsing, semantic analysis, code generation, and optimization.",
+      "description": "Learn how to design and implement a compiler in C programming, including lexical analysis, parsing, semantic analysis, code generation, and optimization.",
       "tags": ["Compiler Design", "Programming Languages"],
       "difficulty": "Advanced",
-      "lessons": "7"
+      "lessons": 7,
+      "topics": [
+        {
+          "lessonID": "C01201",
+          "title": "Introduction to Compiler Design"
+        },
+        {
+          "lessonID": "C01202",
+          "title": "Lexical Analysis"
+        },
+        {
+          "lessonID": "C01203",
+          "title": "Syntax Analysis and Parsing"
+        },
+        {
+          "lessonID": "C01204",
+          "title": "Semantic Analysis"
+        },
+        {
+          "lessonID": "C01205",
+          "title": "Intermediate Code Generation"
+        },
+        {
+          "lessonID": "C01206",
+          "title": "Code Optimization"
+        },
+        {
+          "lessonID": "C01207",
+          "title": "Code Generation"
+        }
+      ]
     },
     {
       "id": "C013",
@@ -257,26 +1626,162 @@
       "description": "Understand how to program embedded systems using C programming, including hardware interfaces, interrupts, and timers.",
       "tags": ["Embedded Systems", "Hardware"],
       "difficulty": "Advanced",
-      "lessons": "12"
+      "lessons": 12,
+      "topics": [
+        {
+          "lessonID": "C01301",
+          "title": "Introduction to Embedded Systems Programming"
+        },
+        {
+          "lessonID": "C01302",
+          "title": "Embedded Systems Architecture and Components"
+        },
+        {
+          "lessonID": "C01303",
+          "title": "Programming Microcontrollers in C"
+        },
+        {
+          "lessonID": "C01304",
+          "title": "Hardware Interfacing with C"
+        },
+        {
+          "lessonID": "C01305",
+          "title": "Interrupts and Timers in Embedded Systems"
+        },
+        {
+          "lessonID": "C01306",
+          "title": "Real-time Operating Systems for Embedded Systems"
+        },
+        {
+          "lessonID": "C01307",
+          "title": "Embedded Systems Networking"
+        },
+        {
+          "lessonID": "C01308",
+          "title": "Power Management in Embedded Systems"
+        },
+        {
+          "lessonID": "C01309",
+          "title": "Debugging and Testing Embedded Systems Programs"
+        },
+        {
+          "lessonID": "C01310",
+          "title": "Security in Embedded Systems Programming"
+        },
+        {
+          "lessonID": "C01311",
+          "title": "Designing Embedded Systems with C"
+        },
+        {
+          "lessonID": "C01312",
+          "title": "Optimizing Embedded Systems Performance"
+        }
+      ]
     },
+
     {
-      "id": "C014",
-      "title": "Secure Coding in C",
-      "description": "Learn about secure coding practices in C programming, including input validation, buffer overflows, and memory safety.",
-      "tags": ["Security", "Coding Practices"],
-      "difficulty": "Advanced",
-      "lessons": "8"
+      "id": "C015",
+      "title": "Data Structures and Algorithms in C",
+      "description": "Learn about data structures and algorithms using C programming, including arrays, linked lists, trees, graphs, sorting, and searching.",
+      "tags": ["Data Structures", "Algorithms"],
+      "difficulty": "Intermediate",
+      "lessons": 10,
+      "topics": [
+        {
+          "lessonID": "C01501",
+          "title": "Introduction to Data Structures and Algorithms"
+        },
+        {
+          "lessonID": "C01502",
+          "title": "Arrays and Matrices"
+        },
+        {
+          "lessonID": "C01503",
+          "title": "Linked Lists"
+        },
+        {
+          "lessonID": "C01504",
+          "title": "Stacks and Queues"
+        },
+        {
+          "lessonID": "C01505",
+          "title": "Trees"
+        },
+        {
+          "lessonID": "C01506",
+          "title": "Graphs"
+        },
+        {
+          "lessonID": "C01507",
+          "title": "Sorting Algorithms"
+        },
+        {
+          "lessonID": "C01508",
+          "title": "Searching Algorithms"
+        },
+        {
+          "lessonID": "C01509",
+          "title": "Dynamic Programming"
+        },
+        {
+          "lessonID": "C01510",
+          "title": "Algorithmic Analysis"
+        }
+      ]
     },
     {
       "id": "C015",
       "title": "Parallel Programming in C",
       "description": "Understand how to write parallel programs in C using OpenMP, MPI, and CUDA.",
-      "tags": [
-        "Parallel Programming",
-        "High Performance Computing"
-      ],
+      "tags": ["Parallel Programming", "High Performance Computing"],
       "difficulty": "Advanced",
-      "lessons": "11"
+      "lessons": 11,
+      "topics": [
+        {
+          "lessonID": "C01501",
+          "title": "Introduction to Parallel Computing"
+        },
+        {
+          "lessonID": "C01502",
+          "title": "OpenMP Basics"
+        },
+        {
+          "lessonID": "C01503",
+          "title": "OpenMP Synchronization"
+        },
+        {
+          "lessonID": "C01504",
+          "title": "OpenMP Performance"
+        },
+        {
+          "lessonID": "C01505",
+          "title": "Introduction to MPI"
+        },
+        {
+          "lessonID": "C01506",
+          "title": "MPI Point-to-Point Communication"
+        },
+        {
+          "lessonID": "C01507",
+          "title": "MPI Collective Communication"
+        },
+        {
+          "lessonID": "C01508",
+          "title": "MPI Performance"
+        },
+        {
+          "lessonID": "C01509",
+          "title": "Introduction to CUDA"
+        },
+        {
+          "lessonID": "C01510",
+          "title": "CUDA Memory Management"
+        },
+        {
+          "lessonID": "C01511",
+          "title": "CUDA Performance"
+        }
+      ]
     }
   ]
 }
