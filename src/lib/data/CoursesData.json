@@ -95,6 +95,7 @@
     {
       "id": "PY003",
       "title": "Python for Data Science",
+      "description": "Learn Python for Data Science with a focus on machine learning and data visualization.",
       "tags": ["Data Science", "Machine Learning", "Visualization"],
       "difficulty": "Intermediate",
       "lessons": 12,
