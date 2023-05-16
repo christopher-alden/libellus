@@ -1,43 +1,61 @@
 import React, { Fragment, useState, useEffect } from "react";
 import SwiperCore, { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useTransition, animated } from "react-spring";
 import "swiper/css";
 import "swiper/css/pagination";
 import HomeSliderCards from "../cards/HomeSliderCards";
-import { Fade } from "react-reveal";
 
 SwiperCore.use([Autoplay]);
 
 export default function HomeSlider({ courses }) {
-  const [currentItem, setCurrentItem] = useState(courses[0]);
-  const [isChanged, setIsChanged] = useState(false);
+  const [currentCourse, setcurrentCourse] = useState(courses[0]);
 
   const handleSlideChange = (swiper) => {
     const { activeIndex } = swiper;
-    setCurrentItem(courses[activeIndex]);
+    setcurrentCourse(courses[activeIndex]);
   };
 
   useEffect(() => {
-    setIsChanged(false);
-    setTimeout(() => {
-      setIsChanged(true);
-    }, 0);
-  }, [currentItem]);
+    setcurrentCourse(courses[0]);
+  }, [courses]);
+
+  const fadeTransitions = useTransition(currentCourse, {
+    from: { opacity: 0, transform: "translateY(20px)" },
+    enter: { opacity: 1, transform: "translateY(0)" },
+    config: { duration: 500 },
+  });
 
   return (
     <Fragment>
       <div className="flex justify-center items-center w-screen h-[800px] opacity-100 ">
         <div className="absolute w-[1200px] h-[600px] z-10 cover shadow-2xl">
           <div className="absolute z-20 w-[1000px] gap-4 flex flex-col bottom-14 left-14">
-            <Fade bottom when={isChanged}>
-              <div className=" text-5xl text-d-text font-bold line-clamp-1">
-                {currentItem.title}
-              </div>
-              <div className=" text-xl text-d-text  line-clamp-2">
-                {currentItem.description}
-              </div>
-              <div className=" flex flex-wrap ">
-                {currentItem.tags.map((tag) => (
+            {fadeTransitions((style, course) => (
+              <animated.div
+                className="text-5xl text-d-text font-bold line-clamp-1"
+                style={style}
+                key={course.id}
+              >
+                {course.title}
+              </animated.div>
+            ))}
+            {fadeTransitions((style, course) => (
+              <animated.div
+                className="text-xl text-d-text line-clamp-2"
+                style={style}
+                key={course.id}
+              >
+                {course.description}
+              </animated.div>
+            ))}
+            {fadeTransitions((style, course) => (
+              <animated.div
+                className="flex flex-wrap"
+                style={style}
+                key={course.id}
+              >
+                {course.tags.map((tag) => (
                   <div
                     key={tag}
                     className="mr-2 mb-2 px-2 py-1 text-d-text border-d-text border-2 rounded-lg text-sm"
@@ -45,14 +63,14 @@ export default function HomeSlider({ courses }) {
                     {tag}
                   </div>
                 ))}
-              </div>
-            </Fade>
+              </animated.div>
+            ))}
           </div>
           <div className="absolute w-full h-full rounded-lg bg-gradient-to-t from-d-primary z-12"></div>
           <div className="absolute w-full h-full rounded-lg bg-d-primary z-11 opacity-20" />
           <img
-            src={currentItem.bannerImage}
-            alt={currentItem.title}
+            src={currentCourse.bannerImage}
+            alt={currentCourse.title}
             className="rounded-xl object-cover w-full h-full"
           />
         </div>
@@ -81,5 +99,3 @@ export default function HomeSlider({ courses }) {
     </Fragment>
   );
 }
-
-//animation belom fluid, mungkin change, fade up agak sus, tags harus clickable
