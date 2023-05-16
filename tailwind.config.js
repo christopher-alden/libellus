@@ -7,7 +7,9 @@ module.exports = {
         'd-primary': '#26292b',
         'd-secondary': '#2e3239',
         'd-accent': '#5f7adb',
-        'd-light' : '#5f7adb',
+        'd-easy' : '#159f91',
+        'd-med' : '#849bce',
+        'd-hard' : '#5f7adb',
         'd-text': '#f1f1f1',
       }
     },

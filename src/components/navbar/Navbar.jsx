@@ -1,9 +1,10 @@
+import { Link, useLocation } from "react-router-dom";
 import ProfileIcon from "../ui/ProfileIcon";
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const [isNavbarTransparent, setIsNavbarTransparent] = useState(true);
-  const [activeMenu, setActiveMenu] = useState("home");
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,61 +41,46 @@ export default function Navbar() {
         LIBELLUS
       </div>
       <div className="flex my-auto text-d-text text-lg gap-8 poppins justify-center">
-        <a
-          href="/home"
-          className={
-            activeMenu === "home"
-              ? "text-d-accent transition-all duration-150"
-              : ""
-          }
-          onClick={() => setActiveMenu("home")}
+        <Link
+          to="/home"
+          className={`${
+            location.pathname === "/home" ? "text-d-accent" : ""
+          } transition-all duration-150`}
         >
           Home
-        </a>
-        <a
-          href="/dashboard"
-          className={
-            activeMenu === "dashboard"
-              ? "text-d-accent transition-all duration-150"
-              : ""
-          }
-          onClick={() => setActiveMenu("more")}
+        </Link>
+        <Link
+          to="/dashboard"
+          className={`${
+            location.pathname === "/dashboard" ? "text-d-accent" : ""
+          } transition-all duration-150`}
         >
           Dashboard
-        </a>
-        <a
-          href="/courses"
-          className={
-            activeMenu === "courses"
-              ? "text-d-accent transition-all duration-150"
-              : ""
-          }
-          onClick={() => setActiveMenu("courses")}
+        </Link>
+        <Link
+          to="/courses"
+          className={`${
+            location.pathname === "/courses" ? "text-d-accent" : ""
+          } transition-all duration-150`}
         >
           Courses
-        </a>
-        <a
-          href="/videos"
-          className={
-            activeMenu === "videos"
-              ? "text-d-accent transition-all duration-150"
-              : ""
-          }
-          onClick={() => setActiveMenu("videos")}
+        </Link>
+        <Link
+          to="/videos"
+          className={`${
+            location.pathname === "/videos" ? "text-d-accent" : ""
+          } transition-all duration-150`}
         >
           Videos
-        </a>
-        <a
-          href="/practice"
-          className={
-            activeMenu === "practice"
-              ? "text-d-accent transition-all duration-150"
-              : ""
-          }
-          onClick={() => setActiveMenu("practice")}
+        </Link>
+        <Link
+          to="/practice"
+          className={`${
+            location.pathname === "/practice" ? "text-d-accent" : ""
+          } transition-all duration-150`}
         >
           Practice
-        </a>
+        </Link>
       </div>
       <div className="my-auto justify-center text-d-accent text-4xl font-bold flex items-center gap-8">
         <img
@@ -108,5 +94,3 @@ export default function Navbar() {
     </div>
   );
 }
-
-//woi searchbar belom ada
