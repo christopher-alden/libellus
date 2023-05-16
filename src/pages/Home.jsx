@@ -10,17 +10,18 @@ export default function Home() {
   const java = CourseData.java;
   return (
     <>
-    <div className="">
-      <div className="bg-gradient-to-b from-d-secondary h-[800px]">
-        <HomeSlider courses={sliders}></HomeSlider>
-      </div>
-      <div className="flex-col space-y-12">
+      <div className="">
+        <div className="bg-gradient-to-b from-d-secondary h-[800px]">
+          <HomeSlider courses={sliders}></HomeSlider>
+        </div>
+        <div className="flex-col space-y-12">
           <ContentSlider title="Python 101" courses={python}></ContentSlider>
           <ContentSlider title="Binusian Nih Bos" courses={c}></ContentSlider>
           <ContentSlider title="JavTot" courses={java}></ContentSlider>
         </div>
-    </div>
-    <Footer/>
+      </div>
+      <Footer />
     </>
   );
 }
+// di home masi testing ini coba bikin lebih variatif kayak misalnya, recommended, categories dll gitu lah
