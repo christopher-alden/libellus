@@ -2,7 +2,8 @@ import ContentSlider from "../components/sliders/ContentSlider";
 import HomeSlider from "../components/sliders/HomeSlider";
 import SliderData from "../lib/data/SliderCourses.json";
 import CourseData from "../lib/data/CoursesData.json";
-import Footer from "../components/footer/Footer";
+
+
 export default function Home() {
   const sliders = SliderData.sliders;
   const python = CourseData.courses.python;
@@ -11,7 +12,7 @@ export default function Home() {
   return (
     <>
       <div className="">
-        <div className="bg-gradient-to-b from-d-secondary h-[800px]">
+        <div className="h-[800px] w-full">
           <HomeSlider courses={sliders}></HomeSlider>
         </div>
         <div className="flex-col space-y-12">
@@ -20,7 +21,7 @@ export default function Home() {
           <ContentSlider title="JavTot" courses={java} category="java"></ContentSlider>
         </div>
       </div>
-      <Footer />
+  
     </>
   );
 }

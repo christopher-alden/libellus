@@ -1,0 +1,19 @@
+.grad-overlay{
+    background: rgb(95,122,219);
+    background: linear-gradient(90deg, rgba(95,122,219,1) 2%, rgba(213,211,254,1) 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grad-overlay-down{
+    background: rgb(95,122,219);
+    background: linear-gradient(180deg, rgba(95,122,219,1) 2%, rgba(213,211,254,1) 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.glass{
+    background: rgba( 152, 152, 152, 0.2 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+}

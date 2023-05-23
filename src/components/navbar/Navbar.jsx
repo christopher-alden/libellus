@@ -1,96 +1,130 @@
-import { Link, useLocation } from "react-router-dom";
-import ProfileIcon from "../ui/ProfileIcon";
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
+import { Dropdown } from './Dropdown';
+import { Link, useLocation } from 'react-router-dom';
+import { ProfileIcon } from '../ui/ProfileIcon';
+
 
 export default function Navbar() {
-  const [isNavbarTransparent, setIsNavbarTransparent] = useState(true);
+
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const location = useLocation();
+  const shouldShowNavbar = location.pathname !== '/';
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const [IsNavbarRounded, setIsNavbarRounded] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset;
-      if (scrollTop < 200) {
-        setIsNavbarTransparent(true);
-      } else {
-        setIsNavbarTransparent(false);
-      }
+      if (scrollTop < 100) setIsNavbarRounded(true);
+      else setIsNavbarRounded(false);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  const navbarBackgroundColor = isNavbarTransparent ? "#2e323980" : "#2e3239";
-  const navbarBackgroundTransition = isNavbarTransparent
-    ? "background 0.5s ease-in-out"
-    : "background 0.5s ease-in-out";
-  const navbarBlur = "blur(10px)";
+  const navbarWidth = IsNavbarRounded ? '100vw' : '110%';
+  const navbarRounded = IsNavbarRounded ? '9999px' : '0px';
+  const navbarBackgroundTransition = IsNavbarRounded ? 'all 0.5s ease-in-out' : 'all 0.5s ease-in-out';
+  const navbarMargin = IsNavbarRounded ? '1rem' : '0px';
+  const navbarBlur = 'blur(10px)';
 
+  if(!shouldShowNavbar)return null;
   return (
-    <div
-      className="fixed z-50 top-0 grid grid-cols-3 p-2 w-full bg-d-secondary"
-      style={{
-        backgroundColor: navbarBackgroundColor,
-        transition: navbarBackgroundTransition,
-        backdropFilter: navbarBlur,
-      }}
-    >
-      <div className="my-auto text-center text-d-accent text-4xl font-bold prompt">
-        LIBELLUS
-      </div>
-      <div className="flex my-auto text-d-text text-lg gap-8 poppins justify-center">
-        <Link
-          to="/home"
-          className={`${
-            location.pathname === "/home" ? "text-d-accent" : ""
-          } transition-all duration-150`}
-        >
-          Home
-        </Link>
-        <Link
-          to="/dashboard"
-          className={`${
-            location.pathname === "/dashboard" ? "text-d-accent" : ""
-          } transition-all duration-150`}
-        >
-          Dashboard
-        </Link>
-        <Link
-          to="/courses"
-          className={`${
-            location.pathname === "/courses" ? "text-d-accent" : ""
-          } transition-all duration-150`}
-        >
-          Courses
-        </Link>
-        <Link
-          to="/videos"
-          className={`${
-            location.pathname === "/videos" ? "text-d-accent" : ""
-          } transition-all duration-150`}
-        >
-          Videos
-        </Link>
-        <Link
-          to="/practice"
-          className={`${
-            location.pathname === "/practice" ? "text-d-accent" : ""
-          } transition-all duration-150`}
-        >
-          Practice
-        </Link>
-      </div>
-      <div className="my-auto justify-center text-d-accent text-4xl font-bold flex items-center gap-8">
-        <img
-          width="35"
-          height="35"
-          src="https://img.icons8.com/ios-glyphs/30/5f7adb/search--v1.png"
-          alt="search--v1"
-        />
-        <ProfileIcon />
-      </div>
+    <div className="fixed w-full flex justify-center z-50 mt-2">
+      <nav
+        id="navbarid"
+        className="translate-y-[-8px] w-full m-4 rounded-full"
+        style={{
+          width: navbarWidth,
+          borderRadius: navbarRounded,
+          transition: navbarBackgroundTransition,
+          backdropFilter: navbarBlur,
+          margin: navbarMargin,
+        }}>
+        <div className="flex items-center justify-around h-16">
+          <div className="flex items-center gap-6 w-48 justify-center ">
+            <button
+              className="block lg:hidden text-3xl text-white focus:outline-none"
+              onClick={toggleDropdown}>
+              <img
+                src="https://img.icons8.com/ios-filled/100/FFFFFF/menu-rounded.png"
+                className="w-8"
+                alt="-"
+              />
+            </button>
+            <a
+              href="/home"
+              className="text-d-accent text-3xl font-bold prompt md w-36">
+              LIBELLUS
+            </a>
+          </div>
+          <div className="flex items-center">
+            {!isDropdownOpen && (
+              <div className="hidden text-white lg:flex items-center gap-6 text-lg">
+                <Link
+                  to="/home"
+                  className={`${location.pathname === '/home' ? 'text-d-accent' : ''} transition-all duration-150`}>
+                  Home
+                </Link>
+                <Link
+                  to="/dashboard"
+                  className={`${
+                    location.pathname === '/dashboard' ? 'text-d-accent' : ''
+                  } transition-all duration-150`}>
+                  Dashboard
+                </Link>
+                <Link
+                  to="/courses"
+                  className={`${location.pathname === '/courses' ? 'text-d-accent' : ''} transition-all duration-150`}>
+                  Courses
+                </Link>
+                <Link
+                  to="/videos"
+                  className={`${location.pathname === '/videos' ? 'text-d-accent' : ''} transition-all duration-150`}>
+                  Videos
+                </Link>
+                <Link
+                  to="/practice"
+                  className={`${location.pathname === '/practice' ? 'text-d-accent' : ''} transition-all duration-150`}>
+                  Practice
+                </Link>
+              </div>
+            )}
+          </div>
+          <div className="flex gap-4 items-center w-fit justify-center lg:w-48">
+            <img
+              width="28"
+              height="28"
+              src="https://img.icons8.com/ios-filled/50/5f7adb/search--v1.png"
+              alt="search--v1"
+            />
+            <ProfileIcon />
+          </div>
+        </div>
+        {isDropdownOpen && (
+          <div className="lg:hidden">
+            <Dropdown
+              options={[
+                { label: 'Home', value: '/home' },
+                { label: 'Dashboard', value: '/dashboard' },
+                { label: 'Courses', value: '/courses' },
+                { label: 'Videos', value: '/videos' },
+                { label: 'Practice', value: '/practice' },
+              ]}
+              handleChange={toggleDropdown}
+              change={isDropdownOpen}>
+              <div className="my-auto"></div>
+            </Dropdown>
+          </div>
+        )}
+      </nav>
     </div>
   );
 }

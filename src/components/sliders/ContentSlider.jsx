@@ -1,19 +1,17 @@
-import ContentCard from "../cards/ContentCard";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination } from "swiper";
-import "./ContentSlider.css";
+import ContentCard from '../cards/ContentCard';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Navigation, Pagination } from 'swiper';
+import './ContentSlider.css';
 
 SwiperCore.use([Navigation, Pagination]);
 
-export default function ContentSlider({ title, courses, category}) {
+export default function ContentSlider({ title, courses, category }) {
   return (
     <div className="w-full flex justify-center ">
       <div className="flex-col w-[1400px]">
-        <div className="text-3xl text-d-text font-bold mb-4 mx-auto">
-          {title}
-        </div>
+        <div className="text-3xl text-d-text font-bold mb-4 mx-auto">{title}</div>
         <div className="flex w-[1400px] mx-auto justify-between absolute translate-y-28">
           <img
             className="rotate-180 -translate-x-12"
@@ -35,11 +33,13 @@ export default function ContentSlider({ title, courses, category}) {
           navigation={true}
           pagination={false}
           slidesPerView={4}
-          spaceBetween={40}
-        >
+          spaceBetween={40}>
           {courses.map((course) => (
             <SwiperSlide key={course.id}>
-              <ContentCard courses={course} category={category} />
+              <ContentCard
+                courses={course}
+                category={category}
+              />
             </SwiperSlide>
           ))}
         </Swiper>

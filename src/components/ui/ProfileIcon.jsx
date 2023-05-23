@@ -1,7 +1,8 @@
-import placeholder from "../../lib/assets/ahyeon.jpeg";
-export default function ProfileIcon() {
+import placeholder from '../../lib/assets/pp.webp';
+
+export function ProfileIcon() {
   return (
-    <div className="inline-block rounded-full overflow-hidden h-12 w-12">
+    <div className="inline-block rounded-full overflow-hidden h-10 w-10 border-[1px] border-d-accent">
       <img
         src={placeholder}
         alt="Profile icon"
