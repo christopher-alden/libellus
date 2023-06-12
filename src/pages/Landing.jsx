@@ -16,10 +16,10 @@ export default function Landing() {
           LIBELLUS
         </a>
         <div className="flex gap-6 text-lg text-white">
-          <div>Our Courses</div>
-          <div>Features</div>
-          <div>Resources</div>
-          <div>About Us</div>
+          <button>Our Courses</button>
+          <button>Features</button>
+          <button>Resources</button>
+          <button >About Us</button>
         </div>
         <div className="text-white border-2 border-white px-2 py-2 rounded-full flex w-36 justify-center gap-2">
           <div>Start Now</div>
@@ -35,24 +35,26 @@ export default function Landing() {
         <img
           src={bg}
           alt=""
-          className="fixed w-full opacity-40"
+          className="fixed w-full opacity-50 z-0"
         />
         <div className="h-screen w-full">
-          <div className="text-d-text font-bold text-7xl flex justify-center gap-4 z-10 w-full absolute top-36 grad-overlay flex-col text-center">
-            Become an Academic Weapon. Now.
+          <div className='relative top-32 gap-4 flex flex-col'>
+            <h1 className="text-d-text font-bold text-7xl z-10 w-full grad-overlay text-center">
+              Become an Academic Weapon. Now.
+            </h1>
+            <h1 className="text-gray-300 w-full text-center text-xl">
+              Learn from the best, to be the best.
+            </h1>
           </div>
-          <div className="text-gray-300 w-full text-center text-xl absolute top-56">
-            The beginning of your academic comeback starts with us.
-          </div>
+          
 
           <div className=" absolute top-72 text-white flex justify-center w-full gap-4">
-            <div className="border-[1px] border-white rounded-full px-6 py-3 text-xl">Log in</div>
-            <div className="bg-d-accent rounded-full px-6 py-3 text-xl">Start now</div>
+            <div className="bg-d-accent rounded-full px-6 py-3 text-xl">Discover more</div>
           </div>
 
-          <div className="w-full h-full absolute top-56 z-0">
-            <Spline scene="https://prod.spline.design/ILZErXm5hwv69x87/scene.splinecode" />
-          </div>
+          {/* <div className="w-full h-full absolute top-52 z-0">
+          <Spline scene="https://prod.spline.design/ILZErXm5hwv69x87/scene.splinecode" />
+          </div> */}
         </div>
         <Fade
           bottom

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Dropdown } from './Dropdown';
 import { Link, useLocation } from 'react-router-dom';
 import { ProfileIcon } from '../ui/ProfileIcon';
+import { Transition } from 'react-spring';
 
 
 export default function Navbar() {
@@ -14,13 +15,13 @@ export default function Navbar() {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
-  const [IsNavbarRounded, setIsNavbarRounded] = useState(true);
+  const [IsNavbarScrolled, setIsNavbarScrolled] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.pageYOffset;
-      if (scrollTop < 100) setIsNavbarRounded(true);
-      else setIsNavbarRounded(false);
+      const scrollTop = window.scrollY;
+      if (scrollTop < 200) setIsNavbarScrolled(true);
+      else setIsNavbarScrolled(false);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -29,26 +30,20 @@ export default function Navbar() {
     };
   }, []);
 
-  const navbarWidth = IsNavbarRounded ? '100vw' : '110%';
-  const navbarRounded = IsNavbarRounded ? '9999px' : '0px';
-  const navbarBackgroundTransition = IsNavbarRounded ? 'all 0.5s ease-in-out' : 'all 0.5s ease-in-out';
-  const navbarMargin = IsNavbarRounded ? '1rem' : '0px';
-  const navbarBlur = 'blur(10px)';
+  const navbarColor = IsNavbarScrolled ? '#1a1c2299' : '#1a1c22';
+  const navbarTransition = "all 0.5s"
 
   if(!shouldShowNavbar)return null;
   return (
-    <div className="fixed w-full flex justify-center z-50 mt-2">
+    <div className="fixed w-full flex justify-center z-50 backdrop-blur-md">
       <nav
         id="navbarid"
-        className="translate-y-[-8px] w-full m-4 rounded-full"
+        className="w-full"
         style={{
-          width: navbarWidth,
-          borderRadius: navbarRounded,
-          transition: navbarBackgroundTransition,
-          backdropFilter: navbarBlur,
-          margin: navbarMargin,
+          backgroundColor: navbarColor,
+          transition: navbarTransition
         }}>
-        <div className="flex items-center justify-around h-16">
+        <div className="flex items-center justify-around h-20">
           <div className="flex items-center gap-6 w-48 justify-center ">
             <button
               className="block lg:hidden text-3xl text-white focus:outline-none"
@@ -61,13 +56,13 @@ export default function Navbar() {
             </button>
             <a
               href="/home"
-              className="text-d-accent text-3xl font-bold prompt md w-36">
+              className="text-d-accent text-3xl font-bold prompt w-36">
               LIBELLUS
             </a>
           </div>
           <div className="flex items-center">
             {!isDropdownOpen && (
-              <div className="hidden text-white lg:flex items-center gap-6 text-lg">
+              <div className="hidden text-white lg:flex items-center gap-8 text-md">
                 <Link
                   to="/home"
                   className={`${location.pathname === '/home' ? 'text-d-accent' : ''} transition-all duration-150`}>
