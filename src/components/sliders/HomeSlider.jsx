@@ -23,7 +23,7 @@ export default function HomeSlider({ courses }) {
 
   return (
     <Fragment>
-      <div className="flex justify-center items-center w-full h-[550px] opacity-40 px-6 z-10 md:px-10 lg:px-16 md:h-[650px] lg:h-[800px] transition-all">
+      <div className="flex justify-center items-center w-full p-6 z-10 md:p-10 lg:p-16 transition-all">
         <HomeDisplayCard course={currentCourse}/>
       </div>
       <div className="invisible absolute top-64 right-0 -z-10 ">

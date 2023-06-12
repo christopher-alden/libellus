@@ -10,10 +10,10 @@ export function Dropdown({ options, handleChange, change, children }) {
   });
 
   return (
-    <div className="dropdown border-t-2 border-d-accent lg:hidden w-full">
+    <div className="dropdown border-t-2 border-d-accent lg:hidden w-full px-8 py-4">
       <animated.div
         style={spring}
-        className="pt-2 pb-2 text-lg">
+        className=" text-lg">
         {options.map((option) => (
           <animated.div
             key={option.value}

@@ -11,8 +11,8 @@ export default function Home() {
   const java = CourseData.courses.java;
   return (
     <>
-      <div className="">
-        <div className="h-[800px] w-full">
+      <div className="pt-20 flex flex-col gap-6">
+        <div className="h-fit w-full">
           <HomeSlider courses={sliders}></HomeSlider>
         </div>
         <div className="flex-col space-y-12">
